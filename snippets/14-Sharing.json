@@ -1,0 +1,18 @@
+{
+  "generator": "Code Snippets v3.10.2",
+  "date_created": "2026-10-08 00:00",
+  "snippets": [
+    {
+      "name": "IAAI Module: Sharing",
+      "desc": "Managed module Sharing, version 0.1.0. Requires matching IAAI support package and all declared modules.",
+      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('Sharing', '0.1.0', '6bf7595d31dd2e6d1bff59cfaa3545b528dbee909eb58e4f45550c85491ccdb7');\n}, 20);\n",
+      "tags": [
+        "iaai-managed",
+        "Sharing"
+      ],
+      "scope": "global",
+      "priority": 10,
+      "active": false
+    }
+  ]
+}

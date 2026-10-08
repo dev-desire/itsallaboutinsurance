@@ -1,0 +1,93 @@
+name: WordPress checks and deploy
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: iaai-${{ github.ref_name == 'main' && 'production' || github.ref_name == 'develop' && 'staging' || github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    services:
+      mariadb:
+        image: mariadb:10.11
+        env:
+          MARIADB_ROOT_PASSWORD: synthetic-ci-password
+          MARIADB_DATABASE: iaai_test
+        ports: ['3306:3306']
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized"
+          --health-interval=5s --health-timeout=5s --health-retries=20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq php8.3-cli php8.3-mysql php8.3-mbstring php8.3-gd php8.3-zip php8.3-xml php8.3-curl qpdf poppler-utils
+      - run: php -r '$required=["mysqli","sodium","mbstring","fileinfo","gd","zip","dom","curl"];foreach($required as $extension){if(!extension_loaded($extension))exit(1);}'
+      # PHP 8.3 from the pinned Ubuntu runner series; exact patch is recorded in test results.
+      - run: find wp-content snippets tests scripts -name '*.php' -print0 | xargs -0 -n1 php -l
+      - run: node --check wp-content/plugins/iaai-portal/assets/portal.js
+      - run: python3 scripts/build.py
+      - run: python3 scripts/prepare-tests.py
+      - run: php tests/install.php
+        env:
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - run: php tests/install.php && php tests/kit-import.php
+        env:
+          IAAI_TEST_PREFIX: kit_
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - run: php tests/install.php && php tests/template-releases.php
+        env:
+          IAAI_TEST_PREFIX: release_
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - run: python3 tests/deploy-orchestration.py
+      - run: php tests/integration.php
+        env:
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+          IAAI_TEST_RESULT_PATH: ${{ github.workspace }}/.test-runtime/plugin-results.json
+      - run: php tests/snippet-import.php
+        env:
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - run: php tests/snippet-sync.php
+        env:
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - run: php tests/integration.php
+        env:
+          IAAI_TEST_RUNTIME: snippets
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+          IAAI_TEST_RESULT_PATH: ${{ github.workspace }}/.test-runtime/snippet-results.json
+      - run: python3 tests/http-smoke.py
+        env:
+          IAAI_TEST_WP_PATH: ${{ github.workspace }}/.test-runtime/wordpress
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verification-evidence
+          path: .test-runtime/*-results.json
+          retention-days: 14
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: managed-wordpress-code
+          path: dist/
+          retention-days: 14
+  deploy:
+    if: vars.DEPLOY_ENABLED == 'true' && github.event_name == 'push' && (github.ref_name == 'main' || github.ref_name == 'develop')
+    needs: verify
+    runs-on: ubuntu-24.04
+    environment: ${{ github.ref_name == 'main' && 'production' || 'staging' }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: managed-wordpress-code
+          path: dist
+      - run: bash scripts/deploy.sh
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_WP_PATH: ${{ vars.DEPLOY_WP_PATH }}
+          DEPLOY_ROOT: ${{ vars.DEPLOY_ROOT }}
+          SITE_URL: ${{ vars.SITE_URL }}

@@ -1,0 +1,22 @@
+{
+  "wordpress": {
+    "version": "7.1.3",
+    "url": "https://wordpress.org/wordpress-7.1.3.zip",
+    "sha256": "eb58a90ed55147f90f7bd55d0d3334960a69b7e8a4cc142c8ddfea8965218227"
+  },
+  "elementor": {
+    "version": "4.3.4",
+    "url": "https://downloads.wordpress.org/plugin/elementor.4.3.4.zip",
+    "sha256": "1b67ddd3acca7b245ac0b7e42e4f8ef958e01602d629e8919874b90607cdc12e"
+  },
+  "two-factor": {
+    "version": "0.17.0",
+    "url": "https://downloads.wordpress.org/plugin/two-factor.0.17.0.zip",
+    "sha256": "4d1b0f8e5d82e24876c2b4e86f119122e28a8dbaf76dfde495173226c3356f37"
+  },
+  "code-snippets": {
+    "version": "3.10.2",
+    "url": "https://downloads.wordpress.org/plugin/code-snippets.3.10.2.zip",
+    "sha256": "b7edd9f5fe30fbc9ce06b2d5d160aaa73bc1a1a370a59384d603ab9d9675d626"
+  }
+}

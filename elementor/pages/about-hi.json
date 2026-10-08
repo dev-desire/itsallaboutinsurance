@@ -1,0 +1,180 @@
+{
+  "version": "0.4",
+  "title": "परिचय",
+  "type": "page",
+  "content": [
+    {
+      "id": "000027e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f5f8f5",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "000027d",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000278",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "मार्गदर्शन के पीछे की टीम",
+                "header_size": "div",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000279",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Anand Ahirwar",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 54
+                },
+                "_css_classes": "iaai-hero-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "000027a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "It’s All About Insurance बीमा की सरल जानकारी और enquiries के लिए संस्थापक की पहल है।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "000027b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "व्यावसायिक पहचान, authorization और commercial disclosures सत्यापन के बाद प्रकाशित होंगे।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "000027c",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "टीम से संपर्क करें",
+                "link": {
+                  "url": "/hi/contact/"
+                },
+                "background_color": "#0f766e",
+                "button_text_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_color": "#0f766e",
+                "border_radius": {
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "unit": "px"
+                },
+                "text_padding": {
+                  "top": 16,
+                  "right": 23,
+                  "bottom": 16,
+                  "left": 23,
+                  "unit": "px"
+                },
+                "typography_font_size": {
+                  "size": 14,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

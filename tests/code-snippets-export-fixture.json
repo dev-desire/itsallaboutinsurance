@@ -1,0 +1,18 @@
+{
+    "generator": "Code Snippets v3.10.2",
+    "date_created": "2026-10-08 05:31",
+    "snippets": [
+        {
+            "id": 5,
+            "name": "IAAI export schema fixture",
+            "desc": "Generated through Code Snippets 3.10.2 Export_JSON.",
+            "code": "\/\/ Synthetic inactive fixture",
+            "tags": [
+                "iaai-fixture"
+            ],
+            "modified": "2026-10-08 05:31:38",
+            "description": "Generated through Code Snippets 3.10.2 Export_JSON.",
+            "language": "php"
+        }
+    ]
+}

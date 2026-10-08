@@ -1,0 +1,105 @@
+{
+  "version": "0.4",
+  "title": "मामले का विवरण",
+  "type": "page",
+  "content": [
+    {
+      "id": "00002d1",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "00002d0",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "00002ce",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "मामले की समीक्षा बाकी",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45
+                },
+                "_css_classes": ""
+              },
+              "elements": []
+            },
+            {
+              "id": "00002cf",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "प्रकाशन से पहले सहमति, गुमनाम विवरण, साक्ष्य, तारीख और सही outcome label जोड़ें।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

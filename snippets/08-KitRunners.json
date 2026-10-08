@@ -1,0 +1,18 @@
+{
+  "generator": "Code Snippets v3.10.2",
+  "date_created": "2026-10-08 00:00",
+  "snippets": [
+    {
+      "name": "IAAI Module: KitRunners",
+      "desc": "Managed module KitRunners, version 0.1.0. Requires matching IAAI support package and all declared modules.",
+      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('KitRunners', '0.1.0', '157498cd845e8ea3473eb6c199203bda3ff47d094f72598209b5bdf3ad67cf92');\n}, 20);\n",
+      "tags": [
+        "iaai-managed",
+        "KitRunners"
+      ],
+      "scope": "global",
+      "priority": 10,
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "version": "0.4",
+  "title": "अनुभव",
+  "type": "page",
+  "content": [
+    {
+      "id": "00002cd",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "00002cc",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "00002c8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "वास्तविक मामले। सत्यापित जानकारी।",
+                "header_size": "div",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "00002c9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "हर मामले की अपनी स्थिति।",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 49
+                },
+                "_css_classes": "iaai-hero-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "00002ca",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "साक्ष्य समीक्षा और प्रकाशन सहमति के बाद मामले जोड़े जाएंगे। लंबित मामलों को सफल परिणाम नहीं बताया जाएगा।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00002cb",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "क्लेम सहायता लें",
+                "link": {
+                  "url": "/hi/claim-help/"
+                },
+                "background_color": "#0f766e",
+                "button_text_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_color": "#0f766e",
+                "border_radius": {
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "unit": "px"
+                },
+                "text_padding": {
+                  "top": 16,
+                  "right": 23,
+                  "bottom": 16,
+                  "left": 23,
+                  "unit": "px"
+                },
+                "typography_font_size": {
+                  "size": 14,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": "0.1.0",
+  "support_package": "iaai-portal",
+  "schema_version": 2,
+  "code_snippets_version": "3.10.2",
+  "modules": {
+    "Admin": {
+      "file": "src/Admin.php",
+      "sha256": "40448bb18c266e79c5599bb7dadbaf32e0a449290a2a8c7bccbb092e19dca545",
+      "version": "0.1.0"
+    },
+    "Auth": {
+      "file": "src/Auth.php",
+      "sha256": "fc89a8c8fd064b3205b8570a900c51e6247242d436e272354f5c1319c9627c4e",
+      "version": "0.1.0"
+    },
+    "Core": {
+      "file": "src/Core.php",
+      "sha256": "fb5fc8a2f87761f0cb7b570557350cffb38ba9245b62f72d89e5afcb8a804abb",
+      "version": "0.1.0"
+    },
+    "Elementor": {
+      "file": "src/Elementor.php",
+      "sha256": "fe488b700a45daf45fb9e25b1355adb0b6084a36d809c388789f19f14426348e",
+      "version": "0.1.0"
+    },
+    "ElementorWidget": {
+      "file": "src/ElementorWidget.php",
+      "sha256": "8d326d5e957af493cb73d9ee11f43096e80c57d1205f1dd65e53499ccc45a206",
+      "version": "0.1.0"
+    },
+    "Enquiries": {
+      "file": "src/Enquiries.php",
+      "sha256": "7d4d7a0737421cd39d5861da716cfc592be55e52661446e3a6175d7d04cffbe1",
+      "version": "0.1.0"
+    },
+    "Kit": {
+      "file": "src/Kit.php",
+      "sha256": "472931956583e6ffb6f989f0bc4007c9f7cb18f61e17c7251ab46644d035ba46",
+      "version": "0.1.0"
+    },
+    "KitRunners": {
+      "file": "src/KitRunners.php",
+      "sha256": "157498cd845e8ea3473eb6c199203bda3ff47d094f72598209b5bdf3ad67cf92",
+      "version": "0.1.0"
+    },
+    "Language": {
+      "file": "src/Language.php",
+      "sha256": "991c073fd145ba9f50c7611075cf348958e0032a031c676ab64f905ce5025e8c",
+      "version": "0.1.0"
+    },
+    "Mfa": {
+      "file": "src/Mfa.php",
+      "sha256": "450c67475bd90e3792b8211ef831170780456ffe3fe20455ff1e3d1eab941045",
+      "version": "0.1.0"
+    },
+    "Privacy": {
+      "file": "src/Privacy.php",
+      "sha256": "7e951948e15912d626e3afdf45e3ccfd1ecd96199bcccb3159b48cebe2ebcf60",
+      "version": "0.1.0"
+    },
+    "Records": {
+      "file": "src/Records.php",
+      "sha256": "e1a154c2a7ce8f1ec8e0ac39c6fa62f4be94d0a19f4c5682b25662e1b184b66f",
+      "version": "0.1.0"
+    },
+    "Schema": {
+      "file": "src/Schema.php",
+      "sha256": "21b9af80f9dd5b6d29701fc54471f08cccbca1d98bc5d93cc56f1f447064b44a",
+      "version": "0.1.0"
+    },
+    "Sharing": {
+      "file": "src/Sharing.php",
+      "sha256": "6bf7595d31dd2e6d1bff59cfaa3545b528dbee909eb58e4f45550c85491ccdb7",
+      "version": "0.1.0"
+    },
+    "Snippets": {
+      "file": "src/Snippets.php",
+      "sha256": "b73f957c7b011d8d09c1be89bc4d853ff1f9c5f3509a17d9380377c8958bfbeb",
+      "version": "0.1.0"
+    },
+    "Support": {
+      "file": "src/Support.php",
+      "sha256": "6450c488fc364eae80944bee2fa7ff3835315c180a3e33838cdc1eb8811a1048",
+      "version": "0.1.0"
+    },
+    "Templates": {
+      "file": "src/Templates.php",
+      "sha256": "80665498f86da917cdccff68ab100683cde5ff9db585f52cd583ced841b5d3f8",
+      "version": "0.1.0"
+    },
+    "Worker": {
+      "file": "src/Worker.php",
+      "sha256": "46146b705fc64163e36c13cd02df9d5ebd63fae356946b3adce05e43934f8ec0",
+      "version": "0.1.0"
+    }
+  }
+}

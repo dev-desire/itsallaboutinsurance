@@ -1,0 +1,129 @@
+{
+  "version": "0.4",
+  "title": "Header",
+  "type": "section",
+  "content": [
+    {
+      "id": "0000176",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 20,
+          "right": 20,
+          "bottom": 20,
+          "left": 20,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "flex_align_items": "center",
+        "boxed_width": {
+          "size": 1240,
+          "unit": "px"
+        },
+        "flex_justify_content": "space-between"
+      },
+      "elements": [
+        {
+          "id": "0000173",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "width": {
+              "size": 25,
+              "unit": "%"
+            },
+            "width_mobile": {
+              "size": 100,
+              "unit": "%"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000171",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "It's All About<br>Insurance",
+                "header_size": "div",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "_css_classes": ""
+              },
+              "elements": []
+            },
+            {
+              "id": "0000172",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "समझें। चुनें। तैयार रहें।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 9,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "0000174",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<nav aria-label=\"Main\"><a href=\"/hi/health-insurance/\">सेवाएं</a> &nbsp; <a href=\"/hi/learn/\">जानें</a> &nbsp; <a href=\"/hi/stories/\">अनुभव</a> &nbsp; <a href=\"/hi/about/\">परिचय</a> &nbsp; <a href=\"/hi/contact/\">संपर्क</a></nav>",
+            "text_color": "#61727d",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "size": 13,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000175",
+          "elType": "widget",
+          "widgetType": "iaai-navigation",
+          "settings": {},
+          "elements": []
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

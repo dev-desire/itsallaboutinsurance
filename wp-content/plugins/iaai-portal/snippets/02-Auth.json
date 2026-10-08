@@ -1,0 +1,18 @@
+{
+  "generator": "Code Snippets v3.10.2",
+  "date_created": "2026-10-08 00:00",
+  "snippets": [
+    {
+      "name": "IAAI Module: Auth",
+      "desc": "Managed module Auth, version 0.1.0. Requires matching IAAI support package and all declared modules.",
+      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('Auth', '0.1.0', 'fc89a8c8fd064b3205b8570a900c51e6247242d436e272354f5c1319c9627c4e');\n}, 20);\n",
+      "tags": [
+        "iaai-managed",
+        "Auth"
+      ],
+      "scope": "global",
+      "priority": 10,
+      "active": false
+    }
+  ]
+}

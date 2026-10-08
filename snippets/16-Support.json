@@ -1,0 +1,18 @@
+{
+  "generator": "Code Snippets v3.10.2",
+  "date_created": "2026-10-08 00:00",
+  "snippets": [
+    {
+      "name": "IAAI Module: Support",
+      "desc": "Managed module Support, version 0.1.0. Requires matching IAAI support package and all declared modules.",
+      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('Support', '0.1.0', '6450c488fc364eae80944bee2fa7ff3835315c180a3e33838cdc1eb8811a1048');\n}, 20);\n",
+      "tags": [
+        "iaai-managed",
+        "Support"
+      ],
+      "scope": "global",
+      "priority": 10,
+      "active": false
+    }
+  ]
+}

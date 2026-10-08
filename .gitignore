@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-content/uploads/
+private/
+runtime/
+.test-runtime/
+dist/
+*.sql
+*.sql.gz
+*.key
+*.pem
+__pycache__/
+.test-http.log

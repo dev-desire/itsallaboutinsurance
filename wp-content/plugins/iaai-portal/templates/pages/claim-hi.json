@@ -1,0 +1,852 @@
+{
+  "version": "0.4",
+  "title": "क्लेम सहायता",
+  "type": "page",
+  "content": [
+    {
+      "id": "000025d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 65,
+          "right": 65,
+          "bottom": 65,
+          "left": 65,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f2f7f4",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "000025c",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000259",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "आपका अगला कदम",
+                "header_size": "div",
+                "title_color": "#0f766e",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "000025a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "क्लेम सहायता",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 54
+                },
+                "_css_classes": "iaai-hero-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "000025b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "अपनी समस्या बताएं और अगली प्रक्रिया समझें।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 19,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000274",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000273",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000272",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "stretch"
+              },
+              "elements": [
+                {
+                  "id": "0000262",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000025e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "✓",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000025f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Cashless की समस्या",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000260",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "अपने सवाल टीम से चर्चा करें। शर्तें और बीमा कंपनी की समीक्षा आपकी स्थिति के अनुसार समझें।",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000261",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "जानें →",
+                        "link": {
+                          "url": "#enquiry"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000267",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000263",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "✓",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000264",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Reimbursement की समस्या",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000265",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "अपने सवाल टीम से चर्चा करें। शर्तें और बीमा कंपनी की समीक्षा आपकी स्थिति के अनुसार समझें।",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000266",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "जानें →",
+                        "link": {
+                          "url": "#enquiry"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "000026c",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000268",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "✓",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000269",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "दस्तावेज़ के सवाल",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000026a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "अपने सवाल टीम से चर्चा करें। शर्तें और बीमा कंपनी की समीक्षा आपकी स्थिति के अनुसार समझें।",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000026b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "जानें →",
+                        "link": {
+                          "url": "#enquiry"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000271",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000026d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "✓",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000026e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "सहायता का दायरा",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000026f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "अपने सवाल टीम से चर्चा करें। शर्तें और बीमा कंपनी की समीक्षा आपकी स्थिति के अनुसार समझें।",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000270",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "जानें →",
+                        "link": {
+                          "url": "#enquiry"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000277",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 60,
+          "bottom": 60,
+          "left": 60,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f5f7fa",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        },
+        "css_id": "enquiry"
+      },
+      "elements": [
+        {
+          "id": "0000276",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000275",
+              "elType": "widget",
+              "widgetType": "iaai-guidance",
+              "settings": {
+                "service": "claim_help"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

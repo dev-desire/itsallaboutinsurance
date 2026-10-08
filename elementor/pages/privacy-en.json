@@ -1,0 +1,121 @@
+{
+  "version": "0.4",
+  "title": "Privacy notice",
+  "type": "page",
+  "content": [
+    {
+      "id": "0000166",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000165",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000162",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Privacy notice",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45
+                },
+                "_css_classes": ""
+              },
+              "elements": []
+            },
+            {
+              "id": "0000163",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Owner review required before registration, enquiry collection or real-report launch.",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0000164",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Draft fields to complete: legal identity, actual service role, contact, purposes of collection, optional medical storage, sharing controls, approved retention and backup expiry, deletion/export workflow, commercial relationships and current fees. This template is not a legal approval or compliance certification.",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

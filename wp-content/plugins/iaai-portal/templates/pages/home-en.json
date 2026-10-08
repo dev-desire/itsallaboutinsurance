@@ -1,0 +1,3140 @@
+{
+  "version": "0.4",
+  "title": "Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "0000025",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 85,
+          "right": 85,
+          "bottom": 85,
+          "left": 85,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f8faf8",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000024",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000023",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 55,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "0000018",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "width": {
+                      "size": 58,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000011",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "INSURANCE, IN PLAIN LANGUAGE",
+                        "header_size": "div",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "_css_classes": "iaai-section-label"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000012",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Understand your insurance.<br><span style=\"color:#0f766e\">Make informed choices.</span>",
+                        "header_size": "h1",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 64
+                        },
+                        "_css_classes": "iaai-hero-title"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000013",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Guidance on health insurance, term insurance, policy reviews and claim-related questions from Anand Ahirwar’s team.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 18,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000016",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0,
+                          "unit": "px"
+                        },
+                        "_css_classes": "",
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "0000014",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Get guidance ↗",
+                            "link": {
+                              "url": "/contact/"
+                            },
+                            "background_color": "#0f766e",
+                            "button_text_color": "#ffffff",
+                            "border_border": "solid",
+                            "border_width": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1,
+                              "left": 1,
+                              "unit": "px"
+                            },
+                            "border_color": "#0f766e",
+                            "border_radius": {
+                              "top": 8,
+                              "right": 8,
+                              "bottom": 8,
+                              "left": 8,
+                              "unit": "px"
+                            },
+                            "text_padding": {
+                              "top": 16,
+                              "right": 23,
+                              "bottom": 16,
+                              "left": 23,
+                              "unit": "px"
+                            },
+                            "typography_font_size": {
+                              "size": 14,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "0000015",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Claim help",
+                            "link": {
+                              "url": "/claim-help/"
+                            },
+                            "background_color": "#ffffff",
+                            "button_text_color": "#102a43",
+                            "border_border": "solid",
+                            "border_width": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1,
+                              "left": 1,
+                              "unit": "px"
+                            },
+                            "border_color": "#dce6e3",
+                            "border_radius": {
+                              "top": 8,
+                              "right": 8,
+                              "bottom": 8,
+                              "left": 8,
+                              "unit": "px"
+                            },
+                            "text_padding": {
+                              "top": 16,
+                              "right": 23,
+                              "bottom": 16,
+                              "left": 23,
+                              "unit": "px"
+                            },
+                            "typography_font_size": {
+                              "size": 14,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "0000017",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "A clear starting point. A conversation around your needs.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000022",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-hero-orbit",
+                    "background_background": "classic",
+                    "background_color": "#eaf5f0",
+                    "width": {
+                      "size": 42,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000019",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "ONE CLEAR NEXT STEP",
+                        "header_size": "div",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "_css_classes": "iaai-section-label"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000001e",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 28,
+                          "right": 28,
+                          "bottom": 28,
+                          "left": 28,
+                          "unit": "px"
+                        },
+                        "_css_classes": "iaai-screen-card",
+                        "background_background": "classic",
+                        "background_color": "#fff",
+                        "border_radius": {
+                          "top": 15,
+                          "right": 15,
+                          "bottom": 15,
+                          "left": 15,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "000001a",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Your insurance.<br>Better understood.",
+                            "header_size": "h2",
+                            "title_color": "#102a43",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 28
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "000001b",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "Choose the route that fits your question.",
+                            "text_color": "#61727d",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "size": 14,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "000001c",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "01 &nbsp; Buying for your family?<br>02 &nbsp; Understanding an existing policy?<br>03 &nbsp; Need help with a claim?",
+                            "text_color": "#102a43",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "size": 14,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "000001d",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Find your route →",
+                            "link": {
+                              "url": "#services"
+                            },
+                            "background_color": "#ffffff",
+                            "button_text_color": "#102a43",
+                            "border_border": "solid",
+                            "border_width": {
+                              "top": 1,
+                              "right": 1,
+                              "bottom": 1,
+                              "left": 1,
+                              "unit": "px"
+                            },
+                            "border_color": "#dce6e3",
+                            "border_radius": {
+                              "top": 8,
+                              "right": 8,
+                              "bottom": 8,
+                              "left": 8,
+                              "unit": "px"
+                            },
+                            "text_padding": {
+                              "top": 16,
+                              "right": 23,
+                              "bottom": 16,
+                              "left": 23,
+                              "unit": "px"
+                            },
+                            "typography_font_size": {
+                              "size": 14,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "0000021",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 15,
+                          "right": 15,
+                          "bottom": 15,
+                          "left": 15,
+                          "unit": "px"
+                        },
+                        "_css_classes": "",
+                        "flex_align_items": "center",
+                        "background_background": "classic",
+                        "background_color": "#fff",
+                        "border_radius": {
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "000001f",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "✓",
+                            "header_size": "span",
+                            "title_color": "#0f766e",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 22
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "0000020",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "Clear explanations.<br>No universal “best policy” promises.",
+                            "text_color": "#61727d",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "size": 13,
+                              "unit": "px"
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "000003e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        },
+        "css_id": "services"
+      },
+      "elements": [
+        {
+          "id": "000003d",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000026",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "HOW CAN WE HELP?",
+                "header_size": "div",
+                "title_color": "#0f766e",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000027",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Start with what matters to you.",
+                "header_size": "h2",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "_css_classes": "iaai-section-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "000003c",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 16,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "stretch"
+              },
+              "elements": [
+                {
+                  "id": "000002c",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000028",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "○",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000029",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Health insurance",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000002a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "For you, your family and your parents. Start with the right questions.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000002b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/health-insurance/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000031",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000002d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "↗",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000002e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Term insurance",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000002f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Understand protection for the people who depend on you.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000030",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/term-insurance/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000036",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000032",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "✓",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000033",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Policy review",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000034",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Make sense of the terms in a policy you already have.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000035",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/policy-review/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "000003b",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000037",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "→",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000038",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Claim help",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000039",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Explain your issue and get a clear next-step process.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000003a",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/claim-help/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000055",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 70,
+          "right": 70,
+          "bottom": 70,
+          "left": 70,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f0f6f3",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000054",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000053",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "0000042",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "width": {
+                      "size": 45,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000003f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "A SIMPLE PROCESS",
+                        "header_size": "div",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "_css_classes": "iaai-section-label"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000040",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "A little clarity.<br>A lot more confidence.",
+                        "header_size": "h2",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 40
+                        },
+                        "_css_classes": "iaai-section-title"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000041",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "You share the question. The team reviews the enquiry and helps you understand the next step.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 16,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000052",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "width": {
+                      "size": 55,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000047",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 18,
+                          "right": 18,
+                          "bottom": 18,
+                          "left": 18,
+                          "unit": "px"
+                        },
+                        "_css_classes": "",
+                        "flex_align_items": "center",
+                        "background_background": "classic",
+                        "background_color": "#fff",
+                        "border_radius": {
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "0000043",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "01",
+                            "header_size": "span",
+                            "title_color": "#0f766e",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "0000046",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_direction_mobile": "column",
+                            "gap": {
+                              "size": 18,
+                              "unit": "px"
+                            },
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0,
+                              "unit": "px"
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": [
+                            {
+                              "id": "0000044",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Share your need",
+                                "header_size": "h3",
+                                "title_color": "#102a43",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 21
+                                },
+                                "_css_classes": ""
+                              },
+                              "elements": []
+                            },
+                            {
+                              "id": "0000045",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "Choose Health, Term, Review or Claim Help.",
+                                "text_color": "#61727d",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "size": 14,
+                                  "unit": "px"
+                                }
+                              },
+                              "elements": []
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "000004c",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 18,
+                          "right": 18,
+                          "bottom": 18,
+                          "left": 18,
+                          "unit": "px"
+                        },
+                        "_css_classes": "",
+                        "flex_align_items": "center",
+                        "background_background": "classic",
+                        "background_color": "#fff",
+                        "border_radius": {
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "0000048",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "02",
+                            "header_size": "span",
+                            "title_color": "#0f766e",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "000004b",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_direction_mobile": "column",
+                            "gap": {
+                              "size": 18,
+                              "unit": "px"
+                            },
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0,
+                              "unit": "px"
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": [
+                            {
+                              "id": "0000049",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Team reviews your enquiry",
+                                "header_size": "h3",
+                                "title_color": "#102a43",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 21
+                                },
+                                "_css_classes": ""
+                              },
+                              "elements": []
+                            },
+                            {
+                              "id": "000004a",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "Keep a reference and clear next steps.",
+                                "text_color": "#61727d",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "size": 14,
+                                  "unit": "px"
+                                }
+                              },
+                              "elements": []
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "0000051",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "gap": {
+                          "size": 18,
+                          "unit": "px"
+                        },
+                        "padding": {
+                          "top": 18,
+                          "right": 18,
+                          "bottom": 18,
+                          "left": 18,
+                          "unit": "px"
+                        },
+                        "_css_classes": "",
+                        "flex_align_items": "center",
+                        "background_background": "classic",
+                        "background_color": "#fff",
+                        "border_radius": {
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "000004d",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "03",
+                            "header_size": "span",
+                            "title_color": "#0f766e",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "0000050",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_direction_mobile": "column",
+                            "gap": {
+                              "size": 18,
+                              "unit": "px"
+                            },
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0,
+                              "unit": "px"
+                            },
+                            "_css_classes": ""
+                          },
+                          "elements": [
+                            {
+                              "id": "000004e",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Understand your options",
+                                "header_size": "h3",
+                                "title_color": "#102a43",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 21
+                                },
+                                "_css_classes": ""
+                              },
+                              "elements": []
+                            },
+                            {
+                              "id": "000004f",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "Discuss the terms and questions relevant to you.",
+                                "text_color": "#61727d",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                  "size": 14,
+                                  "unit": "px"
+                                }
+                              },
+                              "elements": []
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000069",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000068",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000056",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LESS CONFUSION. MORE CLARITY.",
+                "header_size": "div",
+                "title_color": "#0f766e",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000057",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Good questions make a better start.",
+                "header_size": "h2",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "_css_classes": "iaai-section-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000067",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "stretch"
+              },
+              "elements": [
+                {
+                  "id": "000005c",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000058",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "01",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000059",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For your family",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000005a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Prepare a checklist before a health-insurance conversation.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000005b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/learn/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000061",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000005d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "02",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000005e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For an existing policy",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000005f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Know which policy terms to ask about during a review.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000060",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/learn/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000066",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 28,
+                      "right": 28,
+                      "bottom": 28,
+                      "left": 28,
+                      "unit": "px"
+                    },
+                    "_css_classes": "iaai-card-hover",
+                    "background_background": "classic",
+                    "background_color": "#fff",
+                    "width": {
+                      "size": 25,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#dde5e7",
+                    "border_radius": {
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000062",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "03",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000063",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For claim questions",
+                        "header_size": "h3",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000064",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Organize the issue and documents for a human review.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000065",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore →",
+                        "link": {
+                          "url": "/learn/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000074",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 65,
+          "right": 65,
+          "bottom": 65,
+          "left": 65,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f9faf8",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000073",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000072",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "000006c",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 35,
+                      "right": 35,
+                      "bottom": 35,
+                      "left": 35,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "background_background": "classic",
+                    "background_color": "#e9f3ec",
+                    "width": {
+                      "size": 35,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 18,
+                      "right": 18,
+                      "bottom": 18,
+                      "left": 18,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000006a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AA",
+                        "header_size": "span",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 74
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000006b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Anand Ahirwar",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 12,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000071",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "width": {
+                      "size": 65,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000006d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "MEET THE FOUNDER",
+                        "header_size": "div",
+                        "title_color": "#0f766e",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "_css_classes": "iaai-section-label"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000006e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Anand Ahirwar",
+                        "header_size": "h2",
+                        "title_color": "#102a43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 38
+                        },
+                        "_css_classes": "iaai-section-title"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "000006f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "The focus is straightforward: help people understand insurance questions and avoid confusion. Learn more about the actual service scope and team.",
+                        "text_color": "#61727d",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 16,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000070",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "About the team →",
+                        "link": {
+                          "url": "/about/"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#102a43",
+                        "border_border": "solid",
+                        "border_width": {
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1,
+                          "unit": "px"
+                        },
+                        "border_color": "#dce6e3",
+                        "border_radius": {
+                          "top": 8,
+                          "right": 8,
+                          "bottom": 8,
+                          "left": 8,
+                          "unit": "px"
+                        },
+                        "text_padding": {
+                          "top": 16,
+                          "right": 23,
+                          "bottom": 16,
+                          "left": 23,
+                          "unit": "px"
+                        },
+                        "typography_font_size": {
+                          "size": 14,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000084",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 65,
+          "right": 65,
+          "bottom": 65,
+          "left": 65,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "0000083",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000075",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "YOUR QUESTIONS, ANSWERED",
+                "header_size": "div",
+                "title_color": "#0f766e",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "_css_classes": "iaai-section-label"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000076",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Before you get started.",
+                "header_size": "h2",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "_css_classes": "iaai-section-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000079",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 18,
+                  "right": 18,
+                  "bottom": 18,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "_css_classes": "iaai-guide-row"
+              },
+              "elements": [
+                {
+                  "id": "0000077",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Do I need an account to ask a question?",
+                    "header_size": "h3",
+                    "title_color": "#102a43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "_css_classes": ""
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000078",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "A basic service enquiry can be submitted without an account. Private records require a verified account.",
+                    "text_color": "#61727d",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "size": 15,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "000007c",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 18,
+                  "right": 18,
+                  "bottom": 18,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "_css_classes": "iaai-guide-row"
+              },
+              "elements": [
+                {
+                  "id": "000007a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Can the team guarantee claim approval?",
+                    "header_size": "h3",
+                    "title_color": "#102a43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "_css_classes": ""
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000007b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "No approval is guaranteed. Assessment and decisions remain with the insurer.",
+                    "text_color": "#61727d",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "size": 15,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "000007f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 18,
+                  "right": 18,
+                  "bottom": 18,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "_css_classes": "iaai-guide-row"
+              },
+              "elements": [
+                {
+                  "id": "000007d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Is medical history required to register?",
+                    "header_size": "h3",
+                    "title_color": "#102a43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "_css_classes": ""
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000007e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "No. Profile and medical-history fields are optional.",
+                    "text_color": "#61727d",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "size": 15,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000082",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 18,
+                  "right": 18,
+                  "bottom": 18,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "_css_classes": "iaai-guide-row"
+              },
+              "elements": [
+                {
+                  "id": "0000080",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "How do I check the current service fees?",
+                    "header_size": "h3",
+                    "title_color": "#102a43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "_css_classes": ""
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000081",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Ask the team to explain the approved fee policy before proceeding.",
+                    "text_color": "#61727d",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "size": 15,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "000008b",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 55,
+          "right": 55,
+          "bottom": 55,
+          "left": 55,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#102a43",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "000008a",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "0000089",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "gap": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "unit": "px"
+                },
+                "_css_classes": "",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "0000087",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "gap": {
+                      "size": 18,
+                      "unit": "px"
+                    },
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "unit": "px"
+                    },
+                    "_css_classes": "",
+                    "width": {
+                      "size": 65,
+                      "unit": "%"
+                    },
+                    "width_mobile": {
+                      "size": 100,
+                      "unit": "%"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000085",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Not sure where to begin?",
+                        "header_size": "h2",
+                        "title_color": "#fff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 37
+                        },
+                        "_css_classes": ""
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0000086",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Tell us what you need help understanding.",
+                        "text_color": "#c9ded7",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "size": 16,
+                          "unit": "px"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000088",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Get guidance ↗",
+                    "link": {
+                      "url": "/contact/"
+                    },
+                    "background_color": "#0f766e",
+                    "button_text_color": "#ffffff",
+                    "border_border": "solid",
+                    "border_width": {
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1,
+                      "unit": "px"
+                    },
+                    "border_color": "#0f766e",
+                    "border_radius": {
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 16,
+                      "right": 23,
+                      "bottom": 16,
+                      "left": 23,
+                      "unit": "px"
+                    },
+                    "typography_font_size": {
+                      "size": 14,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

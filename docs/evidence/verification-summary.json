@@ -1,0 +1,23 @@
+{
+  "release": "0.1.0",
+  "target_domain": "https://itsallaboutinsurance.com/",
+  "live_deployed": false,
+  "remote_repository_created": false,
+  "plugin_checks": 91,
+  "snippet_checks": 91,
+  "native_elementor_templates_imported": 53,
+  "inactive_native_snippet_imports": 19,
+  "snippet_synchronizer": "passed on real Code Snippets database",
+  "targeted_template_release_and_rollback": "passed on real WordPress",
+  "http_render_permission_and_cache_headers": "passed locally",
+  "host_release_orchestration": "passed using command doubles, not SSH",
+  "synthetic_outbound_wordpress_http": "blocked before dependency plugins load",
+  "antivirus": "development test double only",
+  "php_syntax_files": 70,
+  "browser_visual_accessibility": "not performed",
+  "production_mail_cache_backup_ssh": "not configured or tested",
+  "managed_archives": {
+    "iaai-base.zip": "a3621985f5a8aea1b3723f27dad13460531fc4d9b1ab4de08970a30e80e4e787",
+    "iaai-portal.zip": "c8d3abb59bbc91816ea8c388563fa0132fc8554f8a29adbd090fb9f7e2b58ddf"
+  }
+}

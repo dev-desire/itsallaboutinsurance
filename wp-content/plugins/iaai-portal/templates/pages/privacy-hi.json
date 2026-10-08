@@ -1,0 +1,121 @@
+{
+  "version": "0.4",
+  "title": "गोपनीयता नोटिस",
+  "type": "page",
+  "content": [
+    {
+      "id": "00002d6",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "gap": {
+          "size": 18,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 75,
+          "right": 75,
+          "bottom": 75,
+          "left": 75,
+          "unit": "px"
+        },
+        "_css_classes": "",
+        "background_background": "classic",
+        "background_color": "#fff",
+        "padding_mobile": {
+          "top": 42,
+          "right": 0,
+          "bottom": 42,
+          "left": 0,
+          "unit": "px"
+        }
+      },
+      "elements": [
+        {
+          "id": "00002d5",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "gap": {
+              "size": 18,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 0,
+              "right": 24,
+              "bottom": 0,
+              "left": 24,
+              "unit": "px"
+            },
+            "_css_classes": "",
+            "boxed_width": {
+              "size": 1200,
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "00002d2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "गोपनीयता नोटिस",
+                "header_size": "h1",
+                "title_color": "#102a43",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45
+                },
+                "_css_classes": ""
+              },
+              "elements": []
+            },
+            {
+              "id": "00002d3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "रजिस्ट्रेशन, enquiry collection या वास्तविक report launch से पहले owner review जरूरी है।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00002d4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "पूरा करने वाले विवरण: कानूनी पहचान, सेवा भूमिका, संपर्क, जानकारी लेने का उद्देश्य, वैकल्पिक मेडिकल स्टोरेज, sharing controls, स्वीकृत रिटेंशन और backup expiry, deletion/export workflow, commercial relationships और वर्तमान शुल्क। यह template कानूनी स्वीकृति या compliance certification नहीं है।",
+                "text_color": "#61727d",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "size": 16,
+                  "unit": "px"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

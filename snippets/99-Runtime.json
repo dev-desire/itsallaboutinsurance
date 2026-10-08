@@ -1,0 +1,17 @@
+{
+  "generator": "Code Snippets v3.10.2",
+  "date_created": "2026-10-08 00:00",
+  "snippets": [
+    {
+      "name": "IAAI Runtime",
+      "desc": "Boot only after all verified managed modules are registered. Imports are inactive.",
+      "code": "add_action('plugins_loaded', static function () { if (class_exists('IAAI\\\\Portal\\\\Snippets')) { \\IAAI\\Portal\\Snippets::start(); } }, 99);\n",
+      "scope": "global",
+      "tags": [
+        "iaai-managed"
+      ],
+      "priority": 10,
+      "active": false
+    }
+  ]
+}
