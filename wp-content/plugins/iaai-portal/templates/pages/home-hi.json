@@ -83,7 +83,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": ""
+                "css_classes": "",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -102,7 +111,7 @@
                   "widgetType": "heading",
                   "settings": {
                     "title": "बीमा की आसान समझ।<br>आपकी जरूरत का मार्गदर्शन।",
-                    "header_size": "h2",
+                    "header_size": "h1",
                     "title_color": "#24133f",
                     "typography_typography": "custom",
                     "typography_font_size": {
@@ -163,7 +172,16 @@
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "✓ परिवार की सुरक्षा",
-                        "text_color": "#514567"
+                        "text_color": "#514567",
+                        "width": {
+                          "size": 48.0,
+                          "unit": "%"
+                        },
+                        "width_mobile": {
+                          "size": 100,
+                          "unit": "%"
+                        },
+                        "flex_grow": 1
                       },
                       "elements": []
                     },
@@ -173,7 +191,16 @@
                       "widgetType": "text-editor",
                       "settings": {
                         "editor": "✓ स्पष्ट पॉलिसी शर्तें",
-                        "text_color": "#514567"
+                        "text_color": "#514567",
+                        "width": {
+                          "size": 48.0,
+                          "unit": "%"
+                        },
+                        "width_mobile": {
+                          "size": 100,
+                          "unit": "%"
+                        },
+                        "flex_grow": 1
                       },
                       "elements": []
                     }
@@ -230,7 +257,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": ""
+                "css_classes": "",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -454,7 +490,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 23.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -558,7 +603,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 23.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -662,7 +716,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 23.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -766,7 +829,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 23.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -956,7 +1028,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1039,7 +1120,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1122,7 +1212,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1291,7 +1390,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1354,7 +1462,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1417,7 +1534,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": "iaai-color-card"
+                "css_classes": "iaai-color-card",
+                "width": {
+                  "size": 31.333333333333336,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1596,7 +1722,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": ""
+                "css_classes": "",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
@@ -1700,7 +1835,16 @@
                   "left": 24,
                   "unit": "px"
                 },
-                "css_classes": ""
+                "css_classes": "",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {

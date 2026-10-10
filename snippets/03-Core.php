@@ -3,5 +3,5 @@
 add_action('plugins_loaded', static function () {
     if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }
     if (!class_exists('IAAI\\Portal\\Snippets')) { return; }
-    \IAAI\Portal\Snippets::register('Core', '0.1.0', 'fb5fc8a2f87761f0cb7b570557350cffb38ba9245b62f72d89e5afcb8a804abb');
+    \IAAI\Portal\Snippets::register('Core', '0.1.0', '32d605d7c067d304d7e8eafb5b98107e661efc39b6528872529f5260fe674228');
 }, 20);

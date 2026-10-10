@@ -16,12 +16,12 @@
     },
     "Core": {
       "file": "src/Core.php",
-      "sha256": "fb5fc8a2f87761f0cb7b570557350cffb38ba9245b62f72d89e5afcb8a804abb",
+      "sha256": "32d605d7c067d304d7e8eafb5b98107e661efc39b6528872529f5260fe674228",
       "version": "0.1.0"
     },
     "Elementor": {
       "file": "src/Elementor.php",
-      "sha256": "7680ac7ff6d8bf20b530cf874a7ed3b3b2a423e0a4cbba4c817cd9089276105f",
+      "sha256": "e000d8f366f54eadb4c99c846334cf8c4b909698656a4505b19c0f33e569472d",
       "version": "0.1.0"
     },
     "ElementorWidget": {

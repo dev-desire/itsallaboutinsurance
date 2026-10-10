@@ -26,7 +26,7 @@ final class Elementor {
             $html .= '<form class="iaai-calculator" data-iaai-calculator="' . esc_attr($kind) . '"><h3>' . esc_html($title) . '</h3>';
             foreach ($spec[2] as $i => $field) { $field_label = $settings[$kind . '_field_' . $i] ?? ''; $field_label = $field_label ?: ($hi ? $field[1] : $field[0]); $html .= '<label>' . esc_html($field_label) . '<input type="number" min="0" step="any" required value="' . esc_attr($field[2]) . '"></label>'; }
             $note = $settings[$kind . '_note'] ?? ''; $note = $note ?: $spec[3];
-            $html .= '<button type="submit">' . esc_html($settings['calculate_label'] ?? ($hi ? 'गणना करें' : 'Calculate')) . '</button><p>' . esc_html($settings[$kind . '_result'] ?? $spec[4]) . '</p><output aria-live="polite">—</output><p class="iaai-calc-note">' . esc_html($note) . '</p></form>';
+            $html .= '<button type="submit">' . esc_html($settings['calculate_label'] ?? ($hi ? 'गणना करें' : 'Calculate')) . '</button><p>' . esc_html(($settings[$kind . '_result'] ?? '') ?: $spec[4]) . '</p><output aria-live="polite">—</output><p class="iaai-calc-note">' . esc_html($note) . '</p></form>';
         }
         return $html . '</div>';
     }

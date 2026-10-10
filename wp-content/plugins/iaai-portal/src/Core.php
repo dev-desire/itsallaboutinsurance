@@ -13,8 +13,8 @@ final class Core {
         }
         Worker::boot(); Templates::boot(); Admin::boot(); Elementor::boot(); Auth::boot(); Mfa::boot(); Privacy::boot();
         add_action('wp_enqueue_scripts', static function () {
-            wp_enqueue_style('iaai-portal', IAAI_URL . 'assets/portal.css', [], IAAI_VERSION);
-            wp_enqueue_script('iaai-portal', IAAI_URL . 'assets/portal.js', [], IAAI_VERSION, true);
+            wp_enqueue_style('iaai-portal', IAAI_URL . 'assets/portal.css', [], IAAI_VERSION . '.' . filemtime(IAAI_PATH . 'assets/portal.css'));
+            wp_enqueue_script('iaai-portal', IAAI_URL . 'assets/portal.js', [], IAAI_VERSION . '.' . filemtime(IAAI_PATH . 'assets/portal.js'), true);
             wp_localize_script('iaai-portal', 'IAAI', [
                 'api' => rest_url('iaai/v1/'), 'nonce' => is_user_logged_in() ? wp_create_nonce('wp_rest') : '',
                 'home' => home_url('/'), 'locale' => self::locale(), 'account' => home_url('/account/'),
