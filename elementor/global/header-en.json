@@ -60,36 +60,27 @@
           },
           "elements": [
             {
-              "id": "0000001",
+              "id": "a000056",
               "elType": "widget",
-              "widgetType": "heading",
+              "widgetType": "image",
               "settings": {
-                "title": "It's All About<br>Insurance",
-                "header_size": "div",
-                "title_color": "#102a43",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 19
+                "image": {
+                  "url": "https://raw.githubusercontent.com/dev-desire/itsallaboutinsurance/main/wp-content/plugins/iaai-portal/assets/logo-purple.png"
                 },
-                "_css_classes": ""
-              },
-              "elements": []
-            },
-            {
-              "id": "0000002",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "UNDERSTAND. CHOOSE. FEEL PREPARED.",
-                "text_color": "#61727d",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "size": 9,
+                "image_size": "full",
+                "width": {
+                  "size": 250,
                   "unit": "px"
-                }
+                },
+                "width_mobile": {
+                  "size": 210,
+                  "unit": "px"
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                },
+                "caption_source": "none"
               },
               "elements": []
             }

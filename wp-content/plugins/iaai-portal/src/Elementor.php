@@ -3,7 +3,7 @@ namespace IAAI\Portal;
 defined('ABSPATH') || exit;
 
 final class Elementor {
-    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'staff'];
+    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'calculators', 'staff'];
     public static function boot(): void {
         Kit::boot();
         add_filter('elementor/frontend/print_google_fonts', '__return_false');
@@ -12,8 +12,27 @@ final class Elementor {
             foreach (array_diff(self::VIEWS, ['staff']) as $view) { $class = __NAMESPACE__ . '\\' . ucfirst($view) . 'Widget'; $manager->register(new $class()); }
         });
     }
+    public static function calculators(array $settings): string {
+        $hi = Core::locale() === 'hi';
+        $specs = [
+            'tax' => ['Income tax', 'आयकर', [['Annual taxable income ₹', 'वार्षिक कर योग्य आय ₹', 1200000]], 'FY 2025–26 / AY 2026–27, new regime. Resident individual, ordinary-rate income only, up to ₹50 lakh. Enter income after eligible deductions. Includes rebate, marginal relief and 4% cess. Excludes special-rate income and surcharge.', 'Estimated annual tax'],
+            'term' => ['Term protection needs', 'टर्म सुरक्षा की जरूरत', [['Annual family expenses ₹','परिवार का वार्षिक खर्च ₹',600000],['Years to support','सहायता के वर्ष',20],['Debts ₹','कर्ज ₹',1000000],['Future goals ₹','भविष्य के लक्ष्य ₹',1500000],['Available assets + existing cover ₹','उपलब्ध संपत्ति और मौजूदा कवर ₹',2000000]], 'Simple needs estimate: expenses × years + debts + goals − assets and existing cover. Does not account for inflation or investment growth. Not a premium quote.', 'Estimated additional protection'],
+            'ulip' => ['ULIP illustration', 'ULIP उदाहरण', [['Annual contribution ₹','वार्षिक योगदान ₹',100000],['Whole years','पूर्ण वर्ष',10],['Assumed gross growth %','अनुमानित वृद्धि %',8],['Assumed annual charge drag %','अनुमानित वार्षिक शुल्क प्रभाव %',2]], 'Contributions at the start of each year. Uses gross growth minus assumed annual charge drag. Actual mortality, allocation, fund, tax and other charges vary. Market-linked returns are not guaranteed; not an insurer benefit illustration.', 'Illustrative future value'],
+            'salary' => ['Take-home salary', 'हाथ में आने वाला वेतन', [['Monthly gross salary ₹','मासिक सकल वेतन ₹',80000],['Monthly employee PF ₹','मासिक कर्मचारी PF ₹',1800],['Monthly TDS ₹','मासिक TDS ₹',4000],['Other monthly deductions ₹','अन्य मासिक कटौती ₹',200]], 'Monthly gross minus the deductions you enter. Enter gross cash salary, excluding employer PF, gratuity and non-cash CTC components. Does not automatically determine TDS or statutory deductions.', 'Estimated monthly take-home'],
+        ];
+        $html = '<div class="iaai-calculator-grid">';
+        foreach ($specs as $kind => $spec) {
+            $title = $settings[$kind . '_title'] ?? ''; $title = $title ?: ($hi ? $spec[1] : $spec[0]);
+            $html .= '<form class="iaai-calculator" data-iaai-calculator="' . esc_attr($kind) . '"><h3>' . esc_html($title) . '</h3>';
+            foreach ($spec[2] as $i => $field) { $field_label = $settings[$kind . '_field_' . $i] ?? ''; $field_label = $field_label ?: ($hi ? $field[1] : $field[0]); $html .= '<label>' . esc_html($field_label) . '<input type="number" min="0" step="any" required value="' . esc_attr($field[2]) . '"></label>'; }
+            $note = $settings[$kind . '_note'] ?? ''; $note = $note ?: $spec[3];
+            $html .= '<button type="submit">' . esc_html($settings['calculate_label'] ?? ($hi ? 'गणना करें' : 'Calculate')) . '</button><p>' . esc_html($settings[$kind . '_result'] ?? $spec[4]) . '</p><output aria-live="polite">—</output><p class="iaai-calc-note">' . esc_html($note) . '</p></form>';
+        }
+        return $html . '</div>';
+    }
     public static function shell(string $view, array $settings): string {
         if (!in_array($view, self::VIEWS, true)) { return ''; }
+        if ($view === 'calculators') { return self::calculators($settings); }
         if (class_exists('\Elementor\Plugin') && \Elementor\Plugin::$instance->editor->is_edit_mode()) {
             return '<div class="iaai-app"><span class="iaai-eyebrow">Synthetic editor preview</span><h3>' . esc_html($settings['heading'] ?? ucwords($view)) . '</h3><p>Sample layout only. No personal records are loaded in Elementor.</p><div class="iaai-empty">Use the Style tab to edit colors, type, layout and spacing.</div></div>';
         }
@@ -42,11 +61,6 @@ final class Elementor {
                 $account .= $row(admin_url(), $hi ? 'टीम लॉग इन' : 'Team Login', '▣');
             }
             $account .= '</div></details>';
-            $menu = '<details name="iaai-header" class="iaai-nav-dropdown iaai-menu"><summary aria-label="' . ($hi ? 'मेन्यू' : 'Menu') . '"><span class="iaai-hamburger" aria-hidden="true"></span></summary><nav class="iaai-nav-popover" aria-label="' . ($hi ? 'मुख्य मेन्यू' : 'Main menu') . '">';
-            foreach ([['health-insurance', 'Services', 'सेवाएं', '◇'], ['learn', 'Learn', 'जानें', '▤'], ['stories', 'Stories', 'अनुभव', '☆'], ['about', 'About', 'परिचय', '♙'], ['contact', 'Contact', 'संपर्क', '✉']] as $item) {
-                $menu .= $row(home_url(($hi ? '/hi/' : '/') . $item[0] . '/'), $hi ? $item[2] : $item[1], $item[3]);
-            }
-            $menu .= '</nav></details>';
             $css = '<style>
 .iaai-account-control{display:flex;gap:12px;align-items:center;justify-content:flex-end;font-family:inherit;color:#242124}
 .iaai-nav-dropdown{position:relative;font-size:16px;line-height:1.4;font-weight:400}
@@ -65,11 +79,11 @@ final class Elementor {
 .iaai-menu>summary:after{display:none}
 .iaai-hamburger{display:block;width:25px;height:18px;border-top:2px solid;border-bottom:2px solid;position:relative}
 .iaai-hamburger:after{content:"";position:absolute;left:0;right:0;top:6px;border-top:2px solid}
-.iaai-public-header nav[aria-label="Main"]{display:none!important}
+.iaai-public-header nav[aria-label="Main"]{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
 .iaai-public-header .e-con{overflow:visible}
 @media(max-width:767px){.iaai-account-control{gap:8px;justify-content:center}.iaai-nav-dropdown>summary{padding:10px 15px;font-size:15px}.iaai-nav-popover{width:245px}.iaai-language .iaai-nav-popover{width:160px}.iaai-account-control .iaai-nav-row{padding:17px;font-size:17px}.iaai-menu>summary{padding:9px;width:40px}}
 </style>';
-            return $css . '<div class="iaai-account-control">' . $language . $account . $menu . '</div>';
+            return $css . '<div class="iaai-account-control">' . $language . $account . '</div>';
         }
         if ($view === 'contact') {
             $html = '<div class="iaai-panel">';

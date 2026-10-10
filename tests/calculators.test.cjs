@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const calc = require('../wp-content/plugins/iaai-portal/assets/calculators.js');
+assert.equal(calc('tax', [1200000]), 0);
+assert.equal(calc('tax', [1210000]), 10400);
+assert.equal(calc('tax', [1600000]), 124800);
+assert.equal(calc('term', [600000, 20, 1000000, 1500000, 2000000]), 12500000);
+assert.equal(calc('term', [0, 1, 0, 0, 500000]), 0);
+assert.equal(calc('ulip', [100000, 10, 0, 0]), 1000000);
+assert.ok(Math.abs(calc('ulip', [100000, 2, 8, 2]) - 218360) < .01);
+assert.equal(calc('salary', [80000, 1800, 4000, 200]), 74000);
+assert.throws(() => calc('tax', [5000001]));
+assert.throws(() => calc('salary', [100, 200, 0, 0]));
+assert.throws(() => calc('ulip', [100000, 1.5, 8, 2]));
+assert.throws(() => calc('term', [NaN]));
+console.log('Calculator boundaries and known examples passed.');

@@ -42,3 +42,22 @@ final class SettingsWidget extends PortalWidget { protected string $view = 'sett
 final class GuidanceWidget extends PortalWidget { protected string $view = 'guidance'; }
 final class NavigationWidget extends PortalWidget { protected string $view = 'navigation'; }
 final class ContactWidget extends PortalWidget { protected string $view = 'contact'; }
+
+final class CalculatorsWidget extends PortalWidget {
+    protected string $view = 'calculators';
+    protected function register_controls(): void {
+        parent::register_controls();
+        $this->start_controls_section('calculator_labels', ['label' => 'Calculator text']);
+        $this->add_control('calculate_label', ['label' => 'Calculate button', 'type' => \Elementor\Controls_Manager::TEXT, 'default' => 'Calculate']);
+        foreach (['tax' => 1, 'term' => 5, 'ulip' => 4, 'salary' => 4] as $kind => $count) {
+            foreach (['title', 'note', 'result'] as $key) { $this->add_control($kind . '_' . $key, ['label' => ucfirst($kind) . ' ' . $key, 'type' => \Elementor\Controls_Manager::TEXTAREA]); }
+            for ($i = 0; $i < $count; $i++) { $this->add_control($kind . '_field_' . $i, ['label' => ucfirst($kind) . ' field ' . ($i + 1), 'type' => \Elementor\Controls_Manager::TEXT]); }
+        }
+        $this->end_controls_section();
+        $this->start_controls_section('calculator_style', ['label' => 'Calculator appearance', 'tab' => \Elementor\Controls_Manager::TAB_STYLE]);
+        $this->add_control('card_color', ['label' => 'Card background', 'type' => \Elementor\Controls_Manager::COLOR, 'selectors' => ['{{WRAPPER}} .iaai-calculator' => 'background: {{VALUE}};']]);
+        $this->add_control('button_color', ['label' => 'Button background', 'type' => \Elementor\Controls_Manager::COLOR, 'selectors' => ['{{WRAPPER}} button' => 'background: {{VALUE}};']]);
+        $this->add_group_control(\Elementor\Group_Control_Typography::get_type(), ['name' => 'calculator_type', 'selector' => '{{WRAPPER}} .iaai-calculator']);
+        $this->end_controls_section();
+    }
+}
