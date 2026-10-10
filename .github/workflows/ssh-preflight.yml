@@ -1,0 +1,31 @@
+name: Hostinger SSH preflight
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/ssh-preflight.yml]
+permissions:
+  contents: read
+jobs:
+  host-identity:
+    runs-on: ubuntu-24.04
+    environment: production
+    steps:
+      - name: Obtain candidate SSH host identity without authentication
+        env:
+          SSH_HOST: ${{ secrets.DEPLOY_HOST }}
+          SSH_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          set -euo pipefail
+          test -n "$SSH_HOST" && test -n "$SSH_PORT"
+          mkdir -p candidate-host-identity
+          ssh-keyscan -T 15 -p "$SSH_PORT" -t ed25519 "$SSH_HOST" > candidate-host-identity/known_hosts
+          test -s candidate-host-identity/known_hosts
+          ssh-keygen -lf candidate-host-identity/known_hosts | tee candidate-host-identity/fingerprint.txt
+          printf '%s\n' 'Candidate identity only. Confirm this fingerprint with the hosting operator before configuring DEPLOY_KNOWN_HOSTS. No authentication or deployment was performed.' >> "$GITHUB_STEP_SUMMARY"
+          cat candidate-host-identity/fingerprint.txt >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: candidate-host-identity
+          path: candidate-host-identity/
+          retention-days: 1
