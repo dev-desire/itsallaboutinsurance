@@ -16,7 +16,7 @@ try:
     for attempt in range(40):
         try:get('/wp-json/iaai/v1/health');break
         except urllib.error.URLError:time.sleep(.1)
-    code,headers,body=get('/');assert code==200 and b'iaai-hero' in body and b'lang="en' in body
+    code,headers,body=get('/');assert code==200 and b'iaai-home-section' in body and b'data-iaai-calculator' in body and b'lang="en' in body
     code,headers,body=get('/hi/');assert code==200 and b'lang="hi' in body
     for path in ['/account/','/my-dashboard/','/my-reports/']:
         code,headers,body=get(path);assert code==200 and 'no-store' in headers.get('Cache-Control','') and 'noindex' in headers.get('X-Robots-Tag',''),path
