@@ -28,6 +28,7 @@ jobs:
       # PHP 8.3 from the pinned Ubuntu runner series; exact patch is recorded in test results.
       - run: find wp-content snippets tests scripts -name '*.php' -print0 | xargs -0 -n1 php -l
       - run: node --check wp-content/plugins/iaai-portal/assets/portal.js
+      - run: node tests/calculators.test.cjs
       - run: python3 scripts/build.py
       - run: python3 scripts/prepare-tests.py
       - run: php tests/install.php

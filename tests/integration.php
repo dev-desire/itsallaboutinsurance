@@ -53,7 +53,7 @@ try {
  // Initialize the real REST server before Elementor's internal rendering simulator removes init callbacks.
  rest_get_server();
  $widgets=Elementor\Plugin::$instance->widgets_manager->get_widget_types();
- check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===12,'Twelve real registered Elementor widgets');
+ check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===13 && isset($widgets['iaai-calculators']),'Thirteen real registered Elementor widgets including calculators');
  $home=(int)get_option('page_on_front');
  check(strlen(Elementor\Plugin::$instance->frontend->get_builder_content_for_display($home))>20000,'Native Elementor public home renders');
  check(count(apply_filters('wp_privacy_personal_data_exporters',[]))>0 && isset(apply_filters('wp_privacy_personal_data_erasers',[])['iaai-portal']),'Native WordPress privacy hooks register outside REST');
