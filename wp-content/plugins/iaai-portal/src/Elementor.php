@@ -3,7 +3,7 @@ namespace IAAI\Portal;
 defined('ABSPATH') || exit;
 
 final class Elementor {
-    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'calculators', 'posts', 'staff'];
+    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'calculators', 'termplanner', 'posts', 'staff'];
     public static function boot(): void {
         Kit::boot();
         add_filter('elementor/frontend/print_google_fonts', '__return_false');
@@ -50,6 +50,34 @@ final class Elementor {
         }
         return $html;
     }
+    public static function termplanner(array $settings): string {
+        $hi = Core::locale() === 'hi';
+        $l = static fn($en, $hiText) => $hi ? $hiText : $en;
+        $uid = wp_unique_id('iaai-term-');
+        ob_start(); ?>
+        <form class="iaai-term-planner" data-iaai-term-planner>
+          <header><span class="iaai-planner-badge"><?php echo esc_html($l('PLAN YOUR PROTECTION', 'अपनी सुरक्षा की योजना')); ?></span><h3><?php echo esc_html(($settings['heading'] ?? '') ?: $l('Term cover planner', 'टर्म कवर प्लानर')); ?></h3><p><?php echo esc_html(($settings['intro'] ?? '') ?: $l('A clear starting point for your family’s future.', 'परिवार के भविष्य की बेहतर तैयारी की शुरुआत।')); ?></p></header>
+          <div class="iaai-planner-options">
+            <fieldset><legend><?php echo esc_html($l('Your gender', 'आपका लिंग')); ?></legend><div class="iaai-choice-row">
+            <?php foreach (['Male'=>'पुरुष','Female'=>'महिला'] as $value=>$label): ?><label><input type="radio" name="gender" value="<?php echo esc_attr($value); ?>" required><span><?php echo esc_html($l($value,$label)); ?></span></label><?php endforeach; ?>
+            </div></fieldset>
+            <fieldset><legend><?php echo esc_html($l('Do you smoke / use tobacco?', 'क्या आप धूम्रपान / तंबाकू उपयोग करते हैं?')); ?></legend><div class="iaai-choice-row">
+            <?php foreach (['No'=>'नहीं','Yes'=>'हां'] as $value=>$label): ?><label><input type="radio" name="tobacco" value="<?php echo esc_attr($value); ?>" required><span><?php echo esc_html($l($value,$label)); ?></span></label><?php endforeach; ?>
+            </div></fieldset>
+          </div>
+          <label class="iaai-age-label" for="<?php echo esc_attr($uid); ?>"><?php echo esc_html($l('How old are you?', 'आपकी उम्र कितनी है?')); ?> <output data-age-value>30</output></label>
+          <input id="<?php echo esc_attr($uid); ?>" type="range" name="age" min="18" max="60" value="30" step="1" aria-label="<?php echo esc_attr($l('Age in years','उम्र वर्ष में')); ?>">
+          <div class="iaai-age-scale" aria-hidden="true"><span>18</span><span>25</span><span>35</span><span>45</span><span>55</span><span>60</span></div>
+          <fieldset class="iaai-cover-field"><legend><?php echo esc_html($l('I would like to explore life cover of', 'मैं इतना जीवन कवर समझना चाहता/चाहती हूं')); ?></legend><div class="iaai-choice-row iaai-cover-choices">
+          <?php foreach (['5000000'=>'₹50 lakh','10000000'=>'₹1 crore','20000000'=>'₹2 crore','30000000'=>'₹3 crore','50000000'=>'₹5 crore'] as $value=>$label): ?><label><input type="radio" name="cover" value="<?php echo esc_attr($value); ?>" <?php checked($value,'10000000'); ?> required><span><?php echo esc_html($label); ?></span></label><?php endforeach; ?>
+          </div></fieldset>
+          <div class="iaai-planner-summary"><p><?php echo esc_html($l('Selected life cover', 'चुना गया जीवन कवर')); ?></p><output data-cover-value>₹1,00,00,000</output><p><?php echo esc_html($l('Premium is confirmed by the insurer after assessment. This is a cover selector, not a premium quote.', 'प्रीमियम कंपनी की जांच के बाद तय होगा। यह कवर चयन है, प्रीमियम quote नहीं।')); ?></p>
+          <button type="submit"><?php echo esc_html(($settings['continue_label'] ?? '') ?: $l('Continue →','आगे बढ़ें →')); ?></button>
+          <div class="iaai-planner-next" hidden tabindex="-1"><p role="status" data-planner-result></p><a class="iaai-planner-whatsapp" href="https://wa.me/919179826317" target="_blank" rel="noopener"><?php echo esc_html($l('Open WhatsApp with these details ↗','इन विवरणों के साथ WhatsApp खोलें ↗')); ?></a><p><?php echo esc_html($l('WhatsApp opens with your selections. Review the message before sending it to our team.', 'WhatsApp में आपके चुने विवरण खुलेंगे। टीम को भेजने से पहले संदेश जांचें।')); ?></p></div>
+          </div>
+        </form>
+        <?php return ob_get_clean();
+    }
     public static function calculators(array $settings): string {
         $hi = Core::locale() === 'hi';
         $specs = [
@@ -71,6 +99,7 @@ final class Elementor {
     public static function shell(string $view, array $settings): string {
         if (!in_array($view, self::VIEWS, true)) { return ''; }
         if ($view === 'calculators') { return self::calculators($settings); }
+        if ($view === 'termplanner') { return self::termplanner($settings); }
         if ($view === 'posts') { return self::posts($settings); }
         if (class_exists('\Elementor\Plugin') && \Elementor\Plugin::$instance->editor->is_edit_mode()) {
             return '<div class="iaai-app"><span class="iaai-eyebrow">Synthetic editor preview</span><h3>' . esc_html($settings['heading'] ?? ucwords($view)) . '</h3><p>Sample layout only. No personal records are loaded in Elementor.</p><div class="iaai-empty">Use the Style tab to edit colors, type, layout and spacing.</div></div>';

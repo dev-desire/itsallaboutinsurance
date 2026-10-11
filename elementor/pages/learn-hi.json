@@ -4,7 +4,7 @@
   "type": "page",
   "content": [
     {
-      "id": "b0001e4",
+      "id": "b00024a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -36,7 +36,7 @@
       },
       "elements": [
         {
-          "id": "b0001dd",
+          "id": "b000243",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -56,7 +56,7 @@
           "elements": []
         },
         {
-          "id": "b0001de",
+          "id": "b000244",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -66,7 +66,7 @@
           "elements": []
         },
         {
-          "id": "b0001e3",
+          "id": "b000249",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -114,7 +114,7 @@
           },
           "elements": [
             {
-              "id": "b0001df",
+              "id": "b000245",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -148,7 +148,7 @@
               "elements": []
             },
             {
-              "id": "b0001e2",
+              "id": "b000248",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -205,7 +205,7 @@
               },
               "elements": [
                 {
-                  "id": "b0001e0",
+                  "id": "b000246",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -233,7 +233,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0001e1",
+                  "id": "b000247",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {

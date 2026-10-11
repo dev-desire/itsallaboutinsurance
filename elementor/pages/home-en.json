@@ -270,7 +270,7 @@
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Try calculators ↗",
+                        "text": "Plan your cover ↗",
                         "link": {
                           "url": "#calculators"
                         },
@@ -1165,7 +1165,7 @@
       ]
     },
     {
-      "id": "b00002c",
+      "id": "b000030",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1197,58 +1197,256 @@
       },
       "elements": [
         {
-          "id": "b000028",
-          "elType": "widget",
-          "widgetType": "text-editor",
+          "id": "b00002f",
+          "elType": "container",
           "settings": {
-            "editor": "PLAN WITH YOUR OWN NUMBERS",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b000029",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Four tools. A clearer starting point.",
-            "header_size": "h2",
-            "title_color": "#291347",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "size": 38,
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
               "unit": "px"
             },
-            "typography_font_size_mobile": {
-              "size": 32,
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
               "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-planner-layout"
+          },
+          "elements": [
+            {
+              "id": "b00002c",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffff00",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-planner-copy",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000028",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/planning.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000029",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "YOUR FAMILY. YOUR FUTURE.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00002a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your family’s financial planning starts here.",
+                    "header_size": "h2",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 44,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 32,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00002b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "✓ Explore cover for your dependants<br>✓ Choose an amount that fits your responsibilities<br>✓ Understand policy terms before you decide",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b00002e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffff00",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-planner-widget-wrap",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b00002d",
+                  "elType": "widget",
+                  "widgetType": "iaai-termplanner",
+                  "settings": {
+                    "heading": "Term cover planner",
+                    "continue_label": "Continue →"
+                  },
+                  "elements": []
+                }
+              ]
             }
-          },
-          "elements": []
-        },
-        {
-          "id": "b00002a",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "Use the existing calculators right here. Results are planning estimates, not insurer quotes or guaranteed returns.",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b00002b",
-          "elType": "widget",
-          "widgetType": "iaai-calculators",
-          "settings": {
-            "calculate_label": "Calculate"
-          },
-          "elements": []
+          ]
         }
       ]
     },
     {
-      "id": "b00003b",
+      "id": "b000047",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1275,21 +1473,31 @@
           "left": 16,
           "unit": "px"
         },
-        "css_classes": "iaai-home-section iaai-glass-section ",
-        "css_id": ""
+        "css_classes": "iaai-home-section iaai-glass-section iaai-benefits-section",
+        "css_id": "insurance-benefits"
       },
       "elements": [
         {
-          "id": "b00002d",
+          "id": "b000031",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "BENEFITS OF INSURANCE",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b000032",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Clarity looks good on you.",
+            "title": "Protection for life’s different moments.",
             "header_size": "h2",
             "title_color": "#291347",
             "typography_typography": "custom",
             "typography_font_size": {
-              "size": 38,
+              "size": 42,
               "unit": "px"
             },
             "typography_font_size_mobile": {
@@ -1300,7 +1508,17 @@
           "elements": []
         },
         {
-          "id": "b00003a",
+          "id": "b000033",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Explore what different types of insurance can cover, and the questions to ask before choosing.",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b000046",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1348,7 +1566,579 @@
           },
           "elements": [
             {
-              "id": "b000031",
+              "id": "b000039",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000034",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000035",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Health insurance",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000036",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "What is health insurance?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000037",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Understand eligible hospital expenses, waiting periods and exclusions.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000038",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View more →",
+                    "link": {
+                      "url": "/insurance-guides/#health-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b00003f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b00003a",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/family.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00003b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Travel insurance",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00003c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "What is travel insurance?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00003d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Learn about trip-related risks, emergency medical cover and policy limits.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00003e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View more →",
+                    "link": {
+                      "url": "/insurance-guides/#travel-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b000045",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000040",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/wellbeing.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000041",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Personal accident insurance",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000042",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "What is personal accident insurance?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000043",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Explore specified accident benefits and the conditions that apply.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000044",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View more →",
+                    "link": {
+                      "url": "/insurance-guides/#accident-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000056",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": ""
+      },
+      "elements": [
+        {
+          "id": "b000048",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Clarity looks good on you.",
+            "header_size": "h2",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 38,
+              "unit": "px"
+            },
+            "typography_font_size_mobile": {
+              "size": 32,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b000055",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-card-row"
+          },
+          "elements": [
+            {
+              "id": "b00004c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1405,7 +2195,7 @@
               },
               "elements": [
                 {
-                  "id": "b00002e",
+                  "id": "b000049",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1425,7 +2215,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00002f",
+                  "id": "b00004a",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1445,7 +2235,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000030",
+                  "id": "b00004b",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1457,7 +2247,7 @@
               ]
             },
             {
-              "id": "b000035",
+              "id": "b000050",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1514,7 +2304,7 @@
               },
               "elements": [
                 {
-                  "id": "b000032",
+                  "id": "b00004d",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1534,7 +2324,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000033",
+                  "id": "b00004e",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1554,7 +2344,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000034",
+                  "id": "b00004f",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1566,7 +2356,7 @@
               ]
             },
             {
-              "id": "b000039",
+              "id": "b000054",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1623,7 +2413,7 @@
               },
               "elements": [
                 {
-                  "id": "b000036",
+                  "id": "b000051",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1643,7 +2433,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000037",
+                  "id": "b000052",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1663,7 +2453,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000038",
+                  "id": "b000053",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1679,7 +2469,7 @@
       ]
     },
     {
-      "id": "b000051",
+      "id": "b00006c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1711,7 +2501,7 @@
       },
       "elements": [
         {
-          "id": "b00003c",
+          "id": "b000057",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -1731,7 +2521,7 @@
           "elements": []
         },
         {
-          "id": "b00003d",
+          "id": "b000058",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -1741,7 +2531,7 @@
           "elements": []
         },
         {
-          "id": "b000050",
+          "id": "b00006b",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1789,7 +2579,7 @@
           },
           "elements": [
             {
-              "id": "b000043",
+              "id": "b00005e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1846,7 +2636,7 @@
               },
               "elements": [
                 {
-                  "id": "b00003e",
+                  "id": "b000059",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1875,7 +2665,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00003f",
+                  "id": "b00005a",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1885,7 +2675,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000040",
+                  "id": "b00005b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1905,7 +2695,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000041",
+                  "id": "b00005c",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1915,7 +2705,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000042",
+                  "id": "b00005d",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -1944,812 +2734,6 @@
                 }
               ]
             },
-            {
-              "id": "b000049",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "flex_wrap": "wrap",
-                "flex_align_items": "stretch",
-                "gap": {
-                  "size": 24,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "padding_mobile": {
-                  "top": 22,
-                  "right": 18,
-                  "bottom": 22,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "background_background": "classic",
-                "background_color": "#ffffffb3",
-                "border_border": "solid",
-                "border_color": "#ffffffd9",
-                "border_width": {
-                  "top": 1,
-                  "right": 1,
-                  "bottom": 1,
-                  "left": 1,
-                  "unit": "px"
-                },
-                "border_radius": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "css_classes": "iaai-glass iaai-color-card",
-                "width": {
-                  "size": 31.33,
-                  "unit": "%"
-                },
-                "width_mobile": {
-                  "size": 100,
-                  "unit": "%"
-                },
-                "flex_grow": 1
-              },
-              "elements": [
-                {
-                  "id": "b000044",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
-                      "id": 0
-                    },
-                    "image_size": "full",
-                    "link_to": "none",
-                    "link": {
-                      "url": ""
-                    },
-                    "_css_classes": "iaai-editor-photo",
-                    "width": {
-                      "size": 100,
-                      "unit": "%"
-                    },
-                    "border_radius": {
-                      "top": 22,
-                      "right": 22,
-                      "bottom": 22,
-                      "left": 22,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000045",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "DEMO SCENARIO",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000046",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Cover for parents",
-                    "header_size": "h3",
-                    "title_color": "#291347",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "size": 25,
-                      "unit": "px"
-                    },
-                    "typography_font_size_mobile": {
-                      "size": 25,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000047",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "Ask about waiting periods, co-pay and hospital networks.",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000048",
-                  "elType": "widget",
-                  "widgetType": "button",
-                  "settings": {
-                    "text": "Read the checklist →",
-                    "link": {
-                      "url": "/insurance-guides/#step-3"
-                    },
-                    "background_color": "#ffffff",
-                    "button_text_color": "#51218f",
-                    "border_radius": {
-                      "top": 14,
-                      "right": 14,
-                      "bottom": 14,
-                      "left": 14,
-                      "unit": "px"
-                    },
-                    "text_padding": {
-                      "top": 15,
-                      "right": 23,
-                      "bottom": 15,
-                      "left": 23,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "b00004f",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "flex_wrap": "wrap",
-                "flex_align_items": "stretch",
-                "gap": {
-                  "size": 24,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "padding_mobile": {
-                  "top": 22,
-                  "right": 18,
-                  "bottom": 22,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "background_background": "classic",
-                "background_color": "#ffffffb3",
-                "border_border": "solid",
-                "border_color": "#ffffffd9",
-                "border_width": {
-                  "top": 1,
-                  "right": 1,
-                  "bottom": 1,
-                  "left": 1,
-                  "unit": "px"
-                },
-                "border_radius": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "css_classes": "iaai-glass iaai-color-card",
-                "width": {
-                  "size": 31.33,
-                  "unit": "%"
-                },
-                "width_mobile": {
-                  "size": 100,
-                  "unit": "%"
-                },
-                "flex_grow": 1
-              },
-              "elements": [
-                {
-                  "id": "b00004a",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/planning.jpg",
-                      "id": 0
-                    },
-                    "image_size": "full",
-                    "link_to": "none",
-                    "link": {
-                      "url": ""
-                    },
-                    "_css_classes": "iaai-editor-photo",
-                    "width": {
-                      "size": 100,
-                      "unit": "%"
-                    },
-                    "border_radius": {
-                      "top": 22,
-                      "right": 22,
-                      "bottom": 22,
-                      "left": 22,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00004b",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "DEMO SCENARIO",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00004c",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "An existing policy",
-                    "header_size": "h3",
-                    "title_color": "#291347",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "size": 25,
-                      "unit": "px"
-                    },
-                    "typography_font_size_mobile": {
-                      "size": 25,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00004d",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "Read the schedule, exclusions and renewal details.",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00004e",
-                  "elType": "widget",
-                  "widgetType": "button",
-                  "settings": {
-                    "text": "Read the checklist →",
-                    "link": {
-                      "url": "/insurance-guides/#step-4"
-                    },
-                    "background_color": "#ffffff",
-                    "button_text_color": "#51218f",
-                    "border_radius": {
-                      "top": 14,
-                      "right": 14,
-                      "bottom": 14,
-                      "left": 14,
-                      "unit": "px"
-                    },
-                    "text_padding": {
-                      "top": 15,
-                      "right": 23,
-                      "bottom": 15,
-                      "left": 23,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b00005e",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "boxed_width": {
-          "size": 1200,
-          "unit": "px"
-        },
-        "flex_direction": "column",
-        "gap": {
-          "size": 25,
-          "unit": "px"
-        },
-        "padding": {
-          "top": 60,
-          "right": 24,
-          "bottom": 60,
-          "left": 24,
-          "unit": "px"
-        },
-        "padding_mobile": {
-          "top": 36,
-          "right": 16,
-          "bottom": 36,
-          "left": 16,
-          "unit": "px"
-        },
-        "css_classes": "iaai-home-section iaai-glass-section ",
-        "css_id": "guides"
-      },
-      "elements": [
-        {
-          "id": "b000052",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "INSURANCE, ONE STEP AT A TIME",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b000053",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Your guide to a more informed choice.",
-            "header_size": "h2",
-            "title_color": "#291347",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "size": 38,
-              "unit": "px"
-            },
-            "typography_font_size_mobile": {
-              "size": 32,
-              "unit": "px"
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "b00005d",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_direction_mobile": "column",
-            "flex_wrap": "wrap",
-            "flex_align_items": "stretch",
-            "gap": {
-              "size": 24,
-              "unit": "px"
-            },
-            "padding": {
-              "top": 28,
-              "right": 28,
-              "bottom": 28,
-              "left": 28,
-              "unit": "px"
-            },
-            "padding_mobile": {
-              "top": 22,
-              "right": 18,
-              "bottom": 22,
-              "left": 18,
-              "unit": "px"
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff00",
-            "border_border": "solid",
-            "border_color": "#ffffffd9",
-            "border_width": {
-              "top": 1,
-              "right": 1,
-              "bottom": 1,
-              "left": 1,
-              "unit": "px"
-            },
-            "border_radius": {
-              "top": 28,
-              "right": 28,
-              "bottom": 28,
-              "left": 28,
-              "unit": "px"
-            },
-            "css_classes": "iaai-card-row"
-          },
-          "elements": [
-            {
-              "id": "b000057",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "flex_wrap": "wrap",
-                "flex_align_items": "stretch",
-                "gap": {
-                  "size": 24,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "padding_mobile": {
-                  "top": 22,
-                  "right": 18,
-                  "bottom": 22,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "background_background": "classic",
-                "background_color": "#ffffffb3",
-                "border_border": "solid",
-                "border_color": "#ffffffd9",
-                "border_width": {
-                  "top": 1,
-                  "right": 1,
-                  "bottom": 1,
-                  "left": 1,
-                  "unit": "px"
-                },
-                "border_radius": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "css_classes": "iaai-glass",
-                "width": {
-                  "size": 48.0,
-                  "unit": "%"
-                },
-                "width_mobile": {
-                  "size": 100,
-                  "unit": "%"
-                },
-                "flex_grow": 1
-              },
-              "elements": [
-                {
-                  "id": "b000054",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
-                      "id": 0
-                    },
-                    "image_size": "full",
-                    "link_to": "none",
-                    "link": {
-                      "url": ""
-                    },
-                    "_css_classes": "iaai-editor-photo",
-                    "width": {
-                      "size": 100,
-                      "unit": "%"
-                    },
-                    "border_radius": {
-                      "top": 22,
-                      "right": 22,
-                      "bottom": 22,
-                      "left": 22,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000055",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "A simple learning path",
-                    "header_size": "h2",
-                    "title_color": "#291347",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "size": 27,
-                      "unit": "px"
-                    },
-                    "typography_font_size_mobile": {
-                      "size": 27,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000056",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "From identifying your needs to keeping renewal and claim records organised.",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "b00005c",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "flex_wrap": "wrap",
-                "flex_align_items": "stretch",
-                "gap": {
-                  "size": 24,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "padding_mobile": {
-                  "top": 22,
-                  "right": 18,
-                  "bottom": 22,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "background_background": "classic",
-                "background_color": "#ffffffb3",
-                "border_border": "solid",
-                "border_color": "#ffffffd9",
-                "border_width": {
-                  "top": 1,
-                  "right": 1,
-                  "bottom": 1,
-                  "left": 1,
-                  "unit": "px"
-                },
-                "border_radius": {
-                  "top": 28,
-                  "right": 28,
-                  "bottom": 28,
-                  "left": 28,
-                  "unit": "px"
-                },
-                "css_classes": "iaai-glass",
-                "width": {
-                  "size": 48.0,
-                  "unit": "%"
-                },
-                "width_mobile": {
-                  "size": 100,
-                  "unit": "%"
-                },
-                "flex_grow": 1
-              },
-              "elements": [
-                {
-                  "id": "b000058",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "01 Understand your needs",
-                    "header_size": "h3",
-                    "title_color": "#291347",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "size": 24,
-                      "unit": "px"
-                    },
-                    "typography_font_size_mobile": {
-                      "size": 24,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b000059",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "02 Learn the types • 03 Compare terms • 04 Read your policy",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00005a",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "05 Prepare disclosures • 06 Review documents • 07 Keep records • 08 Understand claims",
-                    "text_color": "#62536f"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "b00005b",
-                  "elType": "widget",
-                  "widgetType": "button",
-                  "settings": {
-                    "text": "Open the complete guide →",
-                    "link": {
-                      "url": "/insurance-guides/"
-                    },
-                    "background_color": "#7136cb",
-                    "button_text_color": "#ffffff",
-                    "border_radius": {
-                      "top": 14,
-                      "right": 14,
-                      "bottom": 14,
-                      "left": 14,
-                      "unit": "px"
-                    },
-                    "text_padding": {
-                      "top": 15,
-                      "right": 23,
-                      "bottom": 15,
-                      "left": 23,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b000077",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "boxed_width": {
-          "size": 1200,
-          "unit": "px"
-        },
-        "flex_direction": "column",
-        "gap": {
-          "size": 25,
-          "unit": "px"
-        },
-        "padding": {
-          "top": 60,
-          "right": 24,
-          "bottom": 60,
-          "left": 24,
-          "unit": "px"
-        },
-        "padding_mobile": {
-          "top": 36,
-          "right": 16,
-          "bottom": 36,
-          "left": 16,
-          "unit": "px"
-        },
-        "css_classes": "iaai-home-section iaai-glass-section ",
-        "css_id": "journal"
-      },
-      "elements": [
-        {
-          "id": "b000071",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "FROM THE JOURNAL",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b000072",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Small reads. Useful understanding.",
-            "header_size": "h2",
-            "title_color": "#291347",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "size": 38,
-              "unit": "px"
-            },
-            "typography_font_size_mobile": {
-              "size": 32,
-              "unit": "px"
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "b000073",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "Latest published posts appear automatically. Sample topics below show the layout while you build your journal.",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b000074",
-          "elType": "widget",
-          "widgetType": "iaai-posts",
-          "settings": {
-            "posts_per_page": 3,
-            "show_pagination": "",
-            "empty_message": "Your first published blog will appear here."
-          },
-          "elements": []
-        },
-        {
-          "id": "b000075",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_direction_mobile": "column",
-            "flex_wrap": "wrap",
-            "flex_align_items": "stretch",
-            "gap": {
-              "size": 24,
-              "unit": "px"
-            },
-            "padding": {
-              "top": 28,
-              "right": 28,
-              "bottom": 28,
-              "left": 28,
-              "unit": "px"
-            },
-            "padding_mobile": {
-              "top": 22,
-              "right": 18,
-              "bottom": 22,
-              "left": 18,
-              "unit": "px"
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff00",
-            "border_border": "solid",
-            "border_color": "#ffffffd9",
-            "border_width": {
-              "top": 1,
-              "right": 1,
-              "bottom": 1,
-              "left": 1,
-              "unit": "px"
-            },
-            "border_radius": {
-              "top": 28,
-              "right": 28,
-              "bottom": 28,
-              "left": 28,
-              "unit": "px"
-            },
-            "css_classes": "iaai-card-row"
-          },
-          "elements": [
             {
               "id": "b000064",
               "elType": "container",
@@ -2817,9 +2801,9 @@
                       "id": 0
                     },
                     "image_size": "full",
-                    "link_to": "custom",
+                    "link_to": "none",
                     "link": {
-                      "url": "/insurance-guides/#step-3"
+                      "url": ""
                     },
                     "_css_classes": "iaai-editor-photo",
                     "width": {
@@ -2841,7 +2825,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "SAMPLE READING TOPIC",
+                    "editor": "DEMO SCENARIO",
                     "text_color": "#62536f"
                   },
                   "elements": []
@@ -2851,16 +2835,16 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Before you choose health cover",
+                    "title": "Cover for parents",
                     "header_size": "h3",
                     "title_color": "#291347",
                     "typography_typography": "custom",
                     "typography_font_size": {
-                      "size": 24,
+                      "size": 25,
                       "unit": "px"
                     },
                     "typography_font_size_mobile": {
-                      "size": 24,
+                      "size": 25,
                       "unit": "px"
                     }
                   },
@@ -2871,7 +2855,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "A checklist of questions for a policy discussion.",
+                    "editor": "Ask about waiting periods, co-pay and hospital networks.",
                     "text_color": "#62536f"
                   },
                   "elements": []
@@ -2881,7 +2865,7 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Explore the guide →",
+                    "text": "Read the checklist →",
                     "link": {
                       "url": "/insurance-guides/#step-3"
                     },
@@ -2969,13 +2953,13 @@
                   "widgetType": "image",
                   "settings": {
                     "image": {
-                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/family.jpg",
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/planning.jpg",
                       "id": 0
                     },
                     "image_size": "full",
-                    "link_to": "custom",
+                    "link_to": "none",
                     "link": {
-                      "url": "/insurance-guides/#step-1"
+                      "url": ""
                     },
                     "_css_classes": "iaai-editor-photo",
                     "width": {
@@ -2997,7 +2981,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "SAMPLE READING TOPIC",
+                    "editor": "DEMO SCENARIO",
                     "text_color": "#62536f"
                   },
                   "elements": []
@@ -3007,16 +2991,16 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "How much protection do you need?",
+                    "title": "An existing policy",
                     "header_size": "h3",
                     "title_color": "#291347",
                     "typography_typography": "custom",
                     "typography_font_size": {
-                      "size": 24,
+                      "size": 25,
                       "unit": "px"
                     },
                     "typography_font_size_mobile": {
-                      "size": 24,
+                      "size": 25,
                       "unit": "px"
                     }
                   },
@@ -3027,7 +3011,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "Start with expenses, debts and your dependants.",
+                    "editor": "Read the schedule, exclusions and renewal details.",
                     "text_color": "#62536f"
                   },
                   "elements": []
@@ -3037,9 +3021,9 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Explore the guide →",
+                    "text": "Read the checklist →",
                     "link": {
-                      "url": "/insurance-guides/#step-1"
+                      "url": "/insurance-guides/#step-4"
                     },
                     "background_color": "#ffffff",
                     "button_text_color": "#51218f",
@@ -3061,9 +3045,503 @@
                   "elements": []
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000079",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": "guides"
+      },
+      "elements": [
+        {
+          "id": "b00006d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "INSURANCE, ONE STEP AT A TIME",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b00006e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Your guide to a more informed choice.",
+            "header_size": "h2",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 38,
+              "unit": "px"
+            },
+            "typography_font_size_mobile": {
+              "size": 32,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b000078",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-card-row"
+          },
+          "elements": [
+            {
+              "id": "b000072",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b00006f",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000070",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "A simple learning path",
+                    "header_size": "h2",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 27,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 27,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000071",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "From identifying your needs to keeping renewal and claim records organised.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                }
+              ]
             },
             {
-              "id": "b000070",
+              "id": "b000077",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000073",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01 Understand your needs",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 24,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 24,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000074",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "02 Learn the types • 03 Compare terms • 04 Read your policy",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000075",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "05 Prepare disclosures • 06 Review documents • 07 Keep records • 08 Understand claims",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000076",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Open the complete guide →",
+                    "link": {
+                      "url": "/insurance-guides/"
+                    },
+                    "background_color": "#7136cb",
+                    "button_text_color": "#ffffff",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000092",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": "journal"
+      },
+      "elements": [
+        {
+          "id": "b00008c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "FROM THE JOURNAL",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b00008d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Small reads. Useful understanding.",
+            "header_size": "h2",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 38,
+              "unit": "px"
+            },
+            "typography_font_size_mobile": {
+              "size": 32,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b00008e",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Latest published posts appear automatically. Sample topics below show the layout while you build your journal.",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b00008f",
+          "elType": "widget",
+          "widgetType": "iaai-posts",
+          "settings": {
+            "posts_per_page": 3,
+            "show_pagination": "",
+            "empty_message": "Your first published blog will appear here."
+          },
+          "elements": []
+        },
+        {
+          "id": "b000090",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-card-row"
+          },
+          "elements": [
+            {
+              "id": "b00007f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3120,7 +3598,319 @@
               },
               "elements": [
                 {
-                  "id": "b00006b",
+                  "id": "b00007a",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "custom",
+                    "link": {
+                      "url": "/insurance-guides/#step-3"
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00007b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "SAMPLE READING TOPIC",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00007c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Before you choose health cover",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 24,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 24,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00007d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "A checklist of questions for a policy discussion.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00007e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore the guide →",
+                    "link": {
+                      "url": "/insurance-guides/#step-3"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b000085",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-color-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000080",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/family.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "custom",
+                    "link": {
+                      "url": "/insurance-guides/#step-1"
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000081",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "SAMPLE READING TOPIC",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000082",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "How much protection do you need?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 24,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 24,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000083",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Start with expenses, debts and your dependants.",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000084",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore the guide →",
+                    "link": {
+                      "url": "/insurance-guides/#step-1"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b00008b",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-color-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000086",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3149,7 +3939,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00006c",
+                  "id": "b000087",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3159,7 +3949,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00006d",
+                  "id": "b000088",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -3179,7 +3969,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00006e",
+                  "id": "b000089",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3189,7 +3979,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00006f",
+                  "id": "b00008a",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3221,7 +4011,7 @@
           ]
         },
         {
-          "id": "b000076",
+          "id": "b000091",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -3251,7 +4041,7 @@
       ]
     },
     {
-      "id": "b000081",
+      "id": "b00009c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -3283,7 +4073,7 @@
       },
       "elements": [
         {
-          "id": "b000080",
+          "id": "b00009b",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -3331,7 +4121,7 @@
           },
           "elements": [
             {
-              "id": "b00007c",
+              "id": "b000097",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3388,7 +4178,7 @@
               },
               "elements": [
                 {
-                  "id": "b000078",
+                  "id": "b000093",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3398,7 +4188,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000079",
+                  "id": "b000094",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -3418,7 +4208,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00007a",
+                  "id": "b000095",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3428,7 +4218,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00007b",
+                  "id": "b000096",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3458,7 +4248,7 @@
               ]
             },
             {
-              "id": "b00007f",
+              "id": "b00009a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3515,7 +4305,7 @@
               },
               "elements": [
                 {
-                  "id": "b00007d",
+                  "id": "b000098",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3544,7 +4334,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00007e",
+                  "id": "b000099",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {

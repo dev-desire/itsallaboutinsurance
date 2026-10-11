@@ -6,7 +6,7 @@
       "locale": "en",
       "slug": "header",
       "file": "global/header-en.json",
-      "hash": "e320de37f504ad3a328baa295f95572d3db600035d9aa821135ca548deb379bf",
+      "hash": "99784abe456f85015573353793b987d8c2238c08aa3a23a3f9f2e18854e29cad",
       "description": "",
       "private": false,
       "draft": false,
@@ -28,7 +28,7 @@
       "locale": "en",
       "slug": "home",
       "file": "pages/home-en.json",
-      "hash": "cbd31f94e697c3f0c15264eb3538ef84362b3d8ee7d10dd26b296c925615135d",
+      "hash": "eae0686660badfa952983ee708616ffeeff5874cf8360000419b21b2a901d35f",
       "description": "Understand insurance with health, term, policy review and claim guidance.",
       "private": false,
       "draft": false,
@@ -105,7 +105,7 @@
       "locale": "en",
       "slug": "learn",
       "file": "pages/learn-en.json",
-      "hash": "e8930eaaaf24773c1805d017a7aa63602e2ccb783f0ae4115554beedcaa74f27",
+      "hash": "068d8932dbec9e29bf09c98371685d2edb5cc7f2bd44b98cfd169e5f010c3bb8",
       "description": "",
       "private": false,
       "draft": false,
@@ -268,7 +268,7 @@
       "locale": "hi",
       "slug": "header",
       "file": "global/header-hi.json",
-      "hash": "a935085204af342c0fecc391452f9d2cbc76a6eb75b289976ad372518b200268",
+      "hash": "4d5ca26d7878b22ead2c873cfc9fdc05a43241921d1a20e5ca81799bf058f1e6",
       "description": "",
       "private": false,
       "draft": false,
@@ -290,7 +290,7 @@
       "locale": "hi",
       "slug": "hi",
       "file": "pages/home-hi.json",
-      "hash": "4df52d1b7cd6e1101e3f14a266b676450389626f3e2aa822e1f1344dfa93e64f",
+      "hash": "50879e80bf4b76b99ff878c89685c914f0749d805971f39f247050306f32650f",
       "description": "स्वास्थ्य बीमा, टर्म, समीक्षा और क्लेम के लिए मार्गदर्शन।",
       "private": false,
       "draft": false,
@@ -373,7 +373,7 @@
       "locale": "hi",
       "slug": "learn",
       "file": "pages/learn-hi.json",
-      "hash": "fc17e9fbeaed7897b6f85408c0d855ba71d3c184a761fbd28806a73186f23328",
+      "hash": "826c9c1e9c4c69d7ccc34e74190a0e2c2fa01b36c76997c3e666445a5a95c1bc",
       "description": "",
       "private": false,
       "draft": false,
@@ -622,7 +622,7 @@
       "draft": false,
       "global": false,
       "description": "Insurance Blog",
-      "hash": "c5226f580e0977de090c1dfdedea39495adc1c8d072b6936130513d3e9c93614"
+      "hash": "f69b0f9d34091b0a5d4e579349cb27fc5eb3726021e8a0760574af8e2397d6d9"
     },
     {
       "key": "insurance-guides",
@@ -633,7 +633,7 @@
       "draft": false,
       "global": false,
       "description": "Insurance Guides",
-      "hash": "91c96054b1e17808883b5c6a29eb4320de69552788114c606f3d0cd516ff3c6e"
+      "hash": "a33b0b3d19785ccdfaaafe670b629cde057a788d3a858395403074742dbcfa59"
     },
     {
       "key": "blog",
@@ -645,7 +645,7 @@
       "global": false,
       "description": "बीमा ब्लॉग",
       "parent": "home/hi",
-      "hash": "793bceb1c7609c88b891ba7e3898d7a1f977af47618ddd30b901817e0dfea8a1"
+      "hash": "a1a0eda5edba8c03af10627f1e019f0e5bb5c806fe1c8e72bbd458ed8a0ae643"
     },
     {
       "key": "insurance-guides",
@@ -657,7 +657,7 @@
       "global": false,
       "description": "बीमा गाइड",
       "parent": "home/hi",
-      "hash": "e3c2ea1c52d853f543b9aa378eb0260ec08650328784ff8ff1432db9caa9400f"
+      "hash": "beb346e70dd48823e1e4b72fd62ad8651bc9e0ab7217ec6ac70ce4131d09ab26"
     }
   ]
 }

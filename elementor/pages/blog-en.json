@@ -4,7 +4,7 @@
   "type": "page",
   "content": [
     {
-      "id": "b000085",
+      "id": "b0000a0",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -36,7 +36,7 @@
       },
       "elements": [
         {
-          "id": "b000082",
+          "id": "b00009d",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -46,7 +46,7 @@
           "elements": []
         },
         {
-          "id": "b000083",
+          "id": "b00009e",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -66,7 +66,7 @@
           "elements": []
         },
         {
-          "id": "b000084",
+          "id": "b00009f",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": "b000088",
+      "id": "b0000a3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -110,7 +110,7 @@
       },
       "elements": [
         {
-          "id": "b000086",
+          "id": "b0000a1",
           "elType": "widget",
           "widgetType": "iaai-posts",
           "settings": {
@@ -121,7 +121,7 @@
           "elements": []
         },
         {
-          "id": "b000087",
+          "id": "b0000a2",
           "elType": "widget",
           "widgetType": "button",
           "settings": {

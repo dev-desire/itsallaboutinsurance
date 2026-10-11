@@ -84,3 +84,19 @@ final class CalculatorsWidget extends PortalWidget {
         $this->end_controls_section();
     }
 }
+
+final class TermplannerWidget extends PortalWidget {
+    protected string $view = 'termplanner';
+    public function get_title(): string { return 'IAAI Term Cover Planner'; }
+    protected function register_controls(): void {
+        parent::register_controls();
+        $this->start_controls_section('planner_content', ['label' => 'Planner']);
+        $this->add_control('continue_label', ['label'=>'Continue button','type'=>\Elementor\Controls_Manager::TEXT,'default'=>'Continue →']);
+        $this->end_controls_section();
+        $this->start_controls_section('planner_style', ['label'=>'Planner appearance','tab'=>\Elementor\Controls_Manager::TAB_STYLE]);
+        $this->add_control('planner_accent', ['label'=>'Accent','type'=>\Elementor\Controls_Manager::COLOR,'selectors'=>['{{WRAPPER}} .iaai-term-planner'=>'--planner-accent: {{VALUE}};']]);
+        $this->add_control('planner_background', ['label'=>'Background','type'=>\Elementor\Controls_Manager::COLOR,'selectors'=>['{{WRAPPER}} .iaai-term-planner'=>'background: {{VALUE}};']]);
+        $this->add_group_control(\Elementor\Group_Control_Typography::get_type(), ['name'=>'planner_type','selector'=>'{{WRAPPER}} .iaai-term-planner']);
+        $this->end_controls_section();
+    }
+}

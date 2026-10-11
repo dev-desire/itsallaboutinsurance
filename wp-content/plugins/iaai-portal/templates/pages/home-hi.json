@@ -4,7 +4,7 @@
   "type": "page",
   "content": [
     {
-      "id": "b000102",
+      "id": "b000135",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -36,7 +36,7 @@
       },
       "elements": [
         {
-          "id": "b000101",
+          "id": "b000134",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -84,7 +84,7 @@
           },
           "elements": [
             {
-              "id": "b0000fb",
+              "id": "b00012e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -141,7 +141,7 @@
               },
               "elements": [
                 {
-                  "id": "b0000f4",
+                  "id": "b000127",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -151,7 +151,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000f5",
+                  "id": "b000128",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -171,7 +171,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000f6",
+                  "id": "b000129",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000f9",
+                  "id": "b00012c",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -229,7 +229,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b0000f7",
+                      "id": "b00012a",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -266,11 +266,11 @@
                       "elements": []
                     },
                     {
-                      "id": "b0000f8",
+                      "id": "b00012b",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "गणना करें ↗",
+                        "text": "कवर चुनें ↗",
                         "link": {
                           "url": "#calculators"
                         },
@@ -305,7 +305,7 @@
                   ]
                 },
                 {
-                  "id": "b0000fa",
+                  "id": "b00012d",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -317,7 +317,7 @@
               ]
             },
             {
-              "id": "b000100",
+              "id": "b000133",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -374,7 +374,7 @@
               },
               "elements": [
                 {
-                  "id": "b0000fc",
+                  "id": "b00012f",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -403,7 +403,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000fd",
+                  "id": "b000130",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -423,7 +423,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000fe",
+                  "id": "b000131",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -433,7 +433,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b0000ff",
+                  "id": "b000132",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "id": "b00011a",
+      "id": "b00014d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -499,7 +499,7 @@
       },
       "elements": [
         {
-          "id": "b000103",
+          "id": "b000136",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -509,7 +509,7 @@
           "elements": []
         },
         {
-          "id": "b000104",
+          "id": "b000137",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -529,7 +529,7 @@
           "elements": []
         },
         {
-          "id": "b000119",
+          "id": "b00014c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -577,7 +577,7 @@
           },
           "elements": [
             {
-              "id": "b000109",
+              "id": "b00013c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -634,7 +634,7 @@
               },
               "elements": [
                 {
-                  "id": "b000105",
+                  "id": "b000138",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -663,7 +663,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000106",
+                  "id": "b000139",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -683,7 +683,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000107",
+                  "id": "b00013a",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -693,7 +693,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000108",
+                  "id": "b00013b",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -723,7 +723,7 @@
               ]
             },
             {
-              "id": "b00010e",
+              "id": "b000141",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -780,7 +780,7 @@
               },
               "elements": [
                 {
-                  "id": "b00010a",
+                  "id": "b00013d",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -809,7 +809,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00010b",
+                  "id": "b00013e",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -829,7 +829,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00010c",
+                  "id": "b00013f",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -839,7 +839,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00010d",
+                  "id": "b000140",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -869,7 +869,7 @@
               ]
             },
             {
-              "id": "b000113",
+              "id": "b000146",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -926,7 +926,7 @@
               },
               "elements": [
                 {
-                  "id": "b00010f",
+                  "id": "b000142",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -955,7 +955,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000110",
+                  "id": "b000143",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -975,7 +975,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000111",
+                  "id": "b000144",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -985,7 +985,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000112",
+                  "id": "b000145",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -1015,7 +1015,7 @@
               ]
             },
             {
-              "id": "b000118",
+              "id": "b00014b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1072,7 +1072,7 @@
               },
               "elements": [
                 {
-                  "id": "b000114",
+                  "id": "b000147",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1101,7 +1101,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000115",
+                  "id": "b000148",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1121,7 +1121,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000116",
+                  "id": "b000149",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1131,7 +1131,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000117",
+                  "id": "b00014a",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -1165,7 +1165,7 @@
       ]
     },
     {
-      "id": "b00011f",
+      "id": "b000156",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1197,58 +1197,256 @@
       },
       "elements": [
         {
-          "id": "b00011b",
-          "elType": "widget",
-          "widgetType": "text-editor",
+          "id": "b000155",
+          "elType": "container",
           "settings": {
-            "editor": "अपने आंकड़ों से योजना बनाएं",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b00011c",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "चार गणनाएं। बेहतर शुरुआत।",
-            "header_size": "h2",
-            "title_color": "#291347",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "size": 38,
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
               "unit": "px"
             },
-            "typography_font_size_mobile": {
-              "size": 32,
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
               "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-planner-layout"
+          },
+          "elements": [
+            {
+              "id": "b000152",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffff00",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-planner-copy",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b00014e",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/planning.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00014f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "आपका परिवार। आपका भविष्य।",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000150",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "परिवार की आर्थिक सुरक्षा की शुरुआत यहां से।",
+                    "header_size": "h2",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 44,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 32,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000151",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "✓ आश्रितों की सुरक्षा समझें<br>✓ जिम्मेदारी के अनुसार कवर चुनें<br>✓ फैसले से पहले पॉलिसी की शर्तें जानें",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b000154",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffff00",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-planner-widget-wrap",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000153",
+                  "elType": "widget",
+                  "widgetType": "iaai-termplanner",
+                  "settings": {
+                    "heading": "टर्म कवर प्लानर",
+                    "continue_label": "आगे बढ़ें →"
+                  },
+                  "elements": []
+                }
+              ]
             }
-          },
-          "elements": []
-        },
-        {
-          "id": "b00011d",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "मौजूदा calculators यहीं उपयोग करें। परिणाम योजना के अनुमान हैं; बीमा कंपनी का quote या सुनिश्चित return नहीं।",
-            "text_color": "#62536f"
-          },
-          "elements": []
-        },
-        {
-          "id": "b00011e",
-          "elType": "widget",
-          "widgetType": "iaai-calculators",
-          "settings": {
-            "calculate_label": "गणना करें"
-          },
-          "elements": []
+          ]
         }
       ]
     },
     {
-      "id": "b00012e",
+      "id": "b00016d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1275,21 +1473,31 @@
           "left": 16,
           "unit": "px"
         },
-        "css_classes": "iaai-home-section iaai-glass-section ",
-        "css_id": ""
+        "css_classes": "iaai-home-section iaai-glass-section iaai-benefits-section",
+        "css_id": "insurance-benefits"
       },
       "elements": [
         {
-          "id": "b000120",
+          "id": "b000157",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "बीमा के लाभ",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b000158",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "समझ के साथ बेहतर फैसले।",
+            "title": "जीवन के अलग पड़ावों की सुरक्षा।",
             "header_size": "h2",
             "title_color": "#291347",
             "typography_typography": "custom",
             "typography_font_size": {
-              "size": 38,
+              "size": 42,
               "unit": "px"
             },
             "typography_font_size_mobile": {
@@ -1300,7 +1508,17 @@
           "elements": []
         },
         {
-          "id": "b00012d",
+          "id": "b000159",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "अलग बीमा क्या कवर कर सकते हैं और चुनने से पहले क्या पूछना है, जानें।",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b00016c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1348,7 +1566,579 @@
           },
           "elements": [
             {
-              "id": "b000124",
+              "id": "b00015f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b00015a",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00015b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "स्वास्थ्य बीमा",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00015c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "स्वास्थ्य बीमा क्या है?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00015d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "योग्य अस्पताल खर्च, वेटिंग पीरियड और exclusions समझें।",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00015e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "और जानें →",
+                    "link": {
+                      "url": "/hi/insurance-guides/#health-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b000165",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000160",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/family.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000161",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "यात्रा बीमा",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000162",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "यात्रा बीमा क्या है?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000163",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "यात्रा के जोखिम, आपात चिकित्सा कवर और सीमाएं जानें।",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000164",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "और जानें →",
+                    "link": {
+                      "url": "/hi/insurance-guides/#travel-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b00016b",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "size": 24,
+                  "unit": "px"
+                },
+                "padding": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
+                  "right": 18,
+                  "bottom": 22,
+                  "left": 18,
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass iaai-benefit-card",
+                "width": {
+                  "size": 31.33,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "b000166",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/wellbeing.jpg",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "link_to": "none",
+                    "link": {
+                      "url": ""
+                    },
+                    "_css_classes": "iaai-editor-photo",
+                    "width": {
+                      "size": 100,
+                      "unit": "%"
+                    },
+                    "border_radius": {
+                      "top": 22,
+                      "right": 22,
+                      "bottom": 22,
+                      "left": 22,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000167",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "व्यक्तिगत दुर्घटना बीमा",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000168",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "दुर्घटना बीमा क्या है?",
+                    "header_size": "h3",
+                    "title_color": "#291347",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "size": 25,
+                      "unit": "px"
+                    },
+                    "typography_font_size_mobile": {
+                      "size": 25,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b000169",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "निर्दिष्ट दुर्घटना लाभ और लागू शर्तें समझें।",
+                    "text_color": "#62536f"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b00016a",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "और जानें →",
+                    "link": {
+                      "url": "/hi/insurance-guides/#accident-benefits"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00017c",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": ""
+      },
+      "elements": [
+        {
+          "id": "b00016e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "समझ के साथ बेहतर फैसले।",
+            "header_size": "h2",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 38,
+              "unit": "px"
+            },
+            "typography_font_size_mobile": {
+              "size": 32,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b00017b",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-card-row"
+          },
+          "elements": [
+            {
+              "id": "b000172",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1405,7 +2195,7 @@
               },
               "elements": [
                 {
-                  "id": "b000121",
+                  "id": "b00016f",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1425,7 +2215,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000122",
+                  "id": "b000170",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1445,7 +2235,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000123",
+                  "id": "b000171",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1457,7 +2247,7 @@
               ]
             },
             {
-              "id": "b000128",
+              "id": "b000176",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1514,7 +2304,7 @@
               },
               "elements": [
                 {
-                  "id": "b000125",
+                  "id": "b000173",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1534,7 +2324,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000126",
+                  "id": "b000174",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1554,7 +2344,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000127",
+                  "id": "b000175",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1566,7 +2356,7 @@
               ]
             },
             {
-              "id": "b00012c",
+              "id": "b00017a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1623,7 +2413,7 @@
               },
               "elements": [
                 {
-                  "id": "b000129",
+                  "id": "b000177",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1643,7 +2433,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00012a",
+                  "id": "b000178",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1663,7 +2453,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00012b",
+                  "id": "b000179",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1679,7 +2469,7 @@
       ]
     },
     {
-      "id": "b000144",
+      "id": "b000192",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1711,7 +2501,7 @@
       },
       "elements": [
         {
-          "id": "b00012f",
+          "id": "b00017d",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -1731,7 +2521,7 @@
           "elements": []
         },
         {
-          "id": "b000130",
+          "id": "b00017e",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -1741,7 +2531,7 @@
           "elements": []
         },
         {
-          "id": "b000143",
+          "id": "b000191",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1789,7 +2579,7 @@
           },
           "elements": [
             {
-              "id": "b000136",
+              "id": "b000184",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1846,7 +2636,7 @@
               },
               "elements": [
                 {
-                  "id": "b000131",
+                  "id": "b00017f",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1875,7 +2665,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000132",
+                  "id": "b000180",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1885,7 +2675,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000133",
+                  "id": "b000181",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1905,7 +2695,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000134",
+                  "id": "b000182",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1915,7 +2705,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000135",
+                  "id": "b000183",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -1945,7 +2735,7 @@
               ]
             },
             {
-              "id": "b00013c",
+              "id": "b00018a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2002,7 +2792,7 @@
               },
               "elements": [
                 {
-                  "id": "b000137",
+                  "id": "b000185",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2031,7 +2821,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000138",
+                  "id": "b000186",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2041,7 +2831,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000139",
+                  "id": "b000187",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2061,7 +2851,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00013a",
+                  "id": "b000188",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2071,7 +2861,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00013b",
+                  "id": "b000189",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2101,7 +2891,7 @@
               ]
             },
             {
-              "id": "b000142",
+              "id": "b000190",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2158,7 +2948,7 @@
               },
               "elements": [
                 {
-                  "id": "b00013d",
+                  "id": "b00018b",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2187,7 +2977,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00013e",
+                  "id": "b00018c",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2197,7 +2987,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00013f",
+                  "id": "b00018d",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2217,7 +3007,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000140",
+                  "id": "b00018e",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2227,7 +3017,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000141",
+                  "id": "b00018f",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2261,7 +3051,7 @@
       ]
     },
     {
-      "id": "b000151",
+      "id": "b00019f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -2293,7 +3083,7 @@
       },
       "elements": [
         {
-          "id": "b000145",
+          "id": "b000193",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -2303,7 +3093,7 @@
           "elements": []
         },
         {
-          "id": "b000146",
+          "id": "b000194",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -2323,7 +3113,7 @@
           "elements": []
         },
         {
-          "id": "b000150",
+          "id": "b00019e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -2371,7 +3161,7 @@
           },
           "elements": [
             {
-              "id": "b00014a",
+              "id": "b000198",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2428,7 +3218,7 @@
               },
               "elements": [
                 {
-                  "id": "b000147",
+                  "id": "b000195",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2457,7 +3247,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000148",
+                  "id": "b000196",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2477,7 +3267,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000149",
+                  "id": "b000197",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2489,7 +3279,7 @@
               ]
             },
             {
-              "id": "b00014f",
+              "id": "b00019d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2546,7 +3336,7 @@
               },
               "elements": [
                 {
-                  "id": "b00014b",
+                  "id": "b000199",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2566,7 +3356,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00014c",
+                  "id": "b00019a",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2576,7 +3366,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00014d",
+                  "id": "b00019b",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2586,7 +3376,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00014e",
+                  "id": "b00019c",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2620,7 +3410,7 @@
       ]
     },
     {
-      "id": "b00016a",
+      "id": "b0001b8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -2652,7 +3442,7 @@
       },
       "elements": [
         {
-          "id": "b000164",
+          "id": "b0001b2",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -2662,7 +3452,7 @@
           "elements": []
         },
         {
-          "id": "b000165",
+          "id": "b0001b3",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -2682,7 +3472,7 @@
           "elements": []
         },
         {
-          "id": "b000166",
+          "id": "b0001b4",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -2692,7 +3482,7 @@
           "elements": []
         },
         {
-          "id": "b000167",
+          "id": "b0001b5",
           "elType": "widget",
           "widgetType": "iaai-posts",
           "settings": {
@@ -2703,7 +3493,7 @@
           "elements": []
         },
         {
-          "id": "b000168",
+          "id": "b0001b6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -2751,7 +3541,7 @@
           },
           "elements": [
             {
-              "id": "b000157",
+              "id": "b0001a5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2808,7 +3598,7 @@
               },
               "elements": [
                 {
-                  "id": "b000152",
+                  "id": "b0001a0",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2837,7 +3627,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000153",
+                  "id": "b0001a1",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2847,7 +3637,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000154",
+                  "id": "b0001a2",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2867,7 +3657,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000155",
+                  "id": "b0001a3",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2877,7 +3667,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000156",
+                  "id": "b0001a4",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2907,7 +3697,7 @@
               ]
             },
             {
-              "id": "b00015d",
+              "id": "b0001ab",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2964,7 +3754,7 @@
               },
               "elements": [
                 {
-                  "id": "b000158",
+                  "id": "b0001a6",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2993,7 +3783,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000159",
+                  "id": "b0001a7",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3003,7 +3793,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00015a",
+                  "id": "b0001a8",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -3023,7 +3813,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00015b",
+                  "id": "b0001a9",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3033,7 +3823,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00015c",
+                  "id": "b0001aa",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3063,7 +3853,7 @@
               ]
             },
             {
-              "id": "b000163",
+              "id": "b0001b1",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3120,7 +3910,7 @@
               },
               "elements": [
                 {
-                  "id": "b00015e",
+                  "id": "b0001ac",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3149,7 +3939,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00015f",
+                  "id": "b0001ad",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3159,7 +3949,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000160",
+                  "id": "b0001ae",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -3179,7 +3969,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000161",
+                  "id": "b0001af",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3189,7 +3979,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000162",
+                  "id": "b0001b0",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3221,7 +4011,7 @@
           ]
         },
         {
-          "id": "b000169",
+          "id": "b0001b7",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -3251,7 +4041,7 @@
       ]
     },
     {
-      "id": "b000174",
+      "id": "b0001c2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -3283,7 +4073,7 @@
       },
       "elements": [
         {
-          "id": "b000173",
+          "id": "b0001c1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -3331,7 +4121,7 @@
           },
           "elements": [
             {
-              "id": "b00016f",
+              "id": "b0001bd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3388,7 +4178,7 @@
               },
               "elements": [
                 {
-                  "id": "b00016b",
+                  "id": "b0001b9",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3398,7 +4188,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00016c",
+                  "id": "b0001ba",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -3418,7 +4208,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00016d",
+                  "id": "b0001bb",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -3428,7 +4218,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b00016e",
+                  "id": "b0001bc",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3458,7 +4248,7 @@
               ]
             },
             {
-              "id": "b000172",
+              "id": "b0001c0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3515,7 +4305,7 @@
               },
               "elements": [
                 {
-                  "id": "b000170",
+                  "id": "b0001be",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3544,7 +4334,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b000171",
+                  "id": "b0001bf",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {

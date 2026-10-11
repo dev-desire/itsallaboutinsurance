@@ -53,7 +53,7 @@ try {
  // Initialize the real REST server before Elementor's internal rendering simulator removes init callbacks.
  rest_get_server();
  $widgets=Elementor\Plugin::$instance->widgets_manager->get_widget_types();
- check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===14 && isset($widgets['iaai-calculators'], $widgets['iaai-posts']),'Fourteen registered Elementor widgets including calculators and blog posts');
+ check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===15 && isset($widgets['iaai-termplanner'], $widgets['iaai-calculators'], $widgets['iaai-posts']),'Fifteen registered Elementor widgets including calculators and blog posts');
  // The daily feed must paginate published content without exposing protected articles.
  $category=wp_insert_term('Synthetic journal '.$suffix,'category');$category_id=(int)$category['term_id'];$journal_ids=[];
  foreach(['publish','publish','draft','private','protected'] as $index=>$status){

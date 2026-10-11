@@ -360,3 +360,30 @@
     catch (error) { out.textContent=error.message; }
   });
 })();
+
+(function () {
+  'use strict';
+  const money = value => new Intl.NumberFormat('en-IN', {style:'currency',currency:'INR',maximumFractionDigits:0}).format(value);
+  function update(form) {
+    form.querySelector('[data-age-value]').textContent = form.elements.age.value;
+    form.querySelector('[data-cover-value]').textContent = money(Number(form.elements.cover.value));
+    form.querySelector('.iaai-planner-next').hidden = true;
+  }
+  document.addEventListener('input', function (event) {
+    const form = event.target.closest('[data-iaai-term-planner]');
+    if (form) update(form);
+  });
+  document.addEventListener('submit', function (event) {
+    const form = event.target.closest('[data-iaai-term-planner]');
+    if (!form) return;
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    const age = Number(form.elements.age.value), cover = Number(form.elements.cover.value);
+    if (!Number.isInteger(age) || age < 18 || age > 60 || ![5000000,10000000,20000000,30000000,50000000].includes(cover)) return;
+    const summary = 'Term cover enquiry: age ' + age + ', gender ' + form.elements.gender.value + ', tobacco use ' + form.elements.tobacco.value + ', selected cover ' + money(cover) + '. Please help me understand available options and insurer pricing.';
+    const next = form.querySelector('.iaai-planner-next');
+    next.querySelector('[data-planner-result]').textContent = summary;
+    next.querySelector('a').href = 'https://wa.me/919179826317?text=' + encodeURIComponent(summary);
+    next.hidden = false; next.focus();
+  });
+})();

@@ -60,7 +60,7 @@
           },
           "elements": [
             {
-              "id": "b0001e5",
+              "id": "b00024b",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -88,7 +88,7 @@
           "isInner": true
         },
         {
-          "id": "b0001e6",
+          "id": "b00024c",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

@@ -21,12 +21,12 @@
     },
     "Elementor": {
       "file": "src/Elementor.php",
-      "sha256": "982cd872e5837a9109f746c8fac85a3c08d3a7f2675994dc024017c221120696",
+      "sha256": "8966eb875193dd217b5194c3369c4e5c0d33803af01765b6c7644ac58d6516a2",
       "version": "0.1.0"
     },
     "ElementorWidget": {
       "file": "src/ElementorWidget.php",
-      "sha256": "327a60c8d6075be65595cfec2bd8a8fc97e1b6258e5a8fe92d267e82628e9aa0",
+      "sha256": "7dbc6db15057230cd69f5cdd1c245fa1d06efca3e1ba1be11cb08832c2e54e3a",
       "version": "0.1.0"
     },
     "Enquiries": {
