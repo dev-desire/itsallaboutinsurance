@@ -2,7 +2,7 @@
 
 Target domain: **https://itsallaboutinsurance.com/**. Hosting: **Hostinger**.
 
-This is an installable, tested development release. **It has not been installed on the live domain.** Source repository: https://github.com/dev-desire/itsallaboutinsurance (currently public). Elementor 4.3.4 and Two-Factor 0.17.0 are active on WordPress; the custom plugin, theme and pages are not installed. Hostinger deployment secrets have not been configured.
+This is the source for the existing live WordPress website. The custom plugin, theme and bilingual homepage were previously installed; this release prepares the purple glass homepage, Blog and Insurance Guides update. **GitHub commits do not by themselves prove live deployment.** The last checked Actions run passed verification and skipped deployment because hosting setup remains incomplete. See `docs/GLASS-HOMEPAGE.md` for editable layout and daily publishing instructions. Source: https://github.com/dev-desire/itsallaboutinsurance (public at the last check).
 
 Start with **START-HERE-HI.md** for installation. The detailed architecture is in `docs/TECHNICAL-REQUIREMENTS.md`; actual verification and remaining acceptance work are in `docs/VERIFICATION.md`.
 
@@ -13,7 +13,7 @@ Start with **START-HERE-HI.md** for installation. The detailed architecture is i
 | `dist/iaai-portal.zip` | Upload through WordPress → Plugins → Add New → Upload Plugin |
 | `dist/iaai-base.zip` | Upload through Appearance → Themes → Add New → Upload Theme |
 | `elementor/iaai-website-kit.zip` | Complete native Elementor kit with IAAI blueprint runner; fresh installation only |
-| `elementor/pages`, `elementor/global` | 53 individual native editable template exports and manifest |
+| `elementor/pages`, `elementor/global` | 57 individual native editable template exports and manifest |
 | `snippets/*.json` | 19 inactive native Code Snippets imports: 18 module wrappers and one bootstrap |
 | `snippets/*.php` | Corresponding readable wrappers; matching support plugin is required |
 | `wp-content/` | Canonical plugin/theme source, assets, migration definitions and embedded managed layouts |
@@ -22,13 +22,13 @@ Start with **START-HERE-HI.md** for installation. The detailed architecture is i
 | `tests/` | Synthetic integration, kit, snippet synchronization, HTTP and release-orchestration checks |
 | `docs/` | Host configuration, operations, acceptance evidence and TRD |
 
-There are **49 pages and 4 global header/footer templates**. Seven portal pages use one route shared by both languages. Six legal pages, sixteen guide pages and two case pages remain drafts. No business credentials, patient records, uploaded files, database dumps or production encryption keys are included.
+There are **53 pages and 4 global header/footer templates**. Seven portal pages use one route shared by both languages. Six legal pages, sixteen guide pages and two case pages remain drafts. No business credentials, patient records, uploaded files, database dumps or production encryption keys are included.
 
 ## Tested dependency set
 
 WordPress 7.1.3, PHP 8.3.6, Elementor Free 4.3.4, Two-Factor 0.17.0 and Code Snippets 3.10.2. Exact official download URLs and SHA-256 values are in `dependencies.lock.json`. PHP needs mysqli, sodium, mbstring, fileinfo, gd, zip, dom and curl. The portal requires PHP 8.3 and WordPress 7.0 or newer; other version combinations need staging validation.
 
-Elementor Pro is not required for this kit. The IAAI theme renders the four owned global sections; the matching plugin imports all 53 canonical templates while keeping draft/private flags. The native import API was tested; the interactive importer UI and other Elementor versions still require staging review.
+Elementor Pro is not required for this kit. The IAAI theme renders the four owned global sections; the matching plugin imports all 57 canonical templates while keeping draft/private flags. The native import API was tested; the interactive importer UI and other Elementor versions still require staging review.
 
 ## Build and verification
 
@@ -45,4 +45,4 @@ The GitHub workflow provisions an isolated synthetic WordPress installation and 
 
 The public layouts and protected processing are implemented. Real lead collection remains closed until the actual business notices are reviewed and approved. Registration additionally requires verified mail setup. Report uploads remain closed until encryption, outside-webroot storage, scanner, PDF tools, retention approval, restore verification and the scheduled worker are ready. Existing records cannot be read through a public media URL.
 
-Live custom-code installation, actual email delivery, malware-signature scanning, host cache isolation, backup restore, responsive/accessibility browser testing and actual main/develop deployment have not been verified. The current code is not evidence that AC01–AC30 have all passed on production.
+Current-release deployment, actual email delivery, malware-signature scanning, host cache isolation, backup restore, responsive/accessibility browser testing and actual main/develop deployment have not been verified. The current code is not evidence that AC01–AC30 have all passed on production.

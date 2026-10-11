@@ -60,27 +60,27 @@
           },
           "elements": [
             {
-              "id": "a0000ac",
+              "id": "b0001e5",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
-                  "url": "https://raw.githubusercontent.com/dev-desire/itsallaboutinsurance/main/wp-content/plugins/iaai-portal/assets/logo-purple.png"
+                  "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/logo-purple.png",
+                  "id": 0
                 },
                 "image_size": "full",
                 "width": {
-                  "size": 250,
+                  "size": 220,
                   "unit": "px"
                 },
                 "width_mobile": {
-                  "size": 210,
+                  "size": 190,
                   "unit": "px"
                 },
                 "link_to": "custom",
                 "link": {
                   "url": "/hi/"
-                },
-                "caption_source": "none"
+                }
               },
               "elements": []
             }
@@ -88,18 +88,12 @@
           "isInner": true
         },
         {
-          "id": "0000174",
+          "id": "b0001e6",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<nav aria-label=\"Main\"><a href=\"/hi/health-insurance/\">सेवाएं</a> &nbsp; <a href=\"/hi/learn/\">जानें</a> &nbsp; <a href=\"/hi/stories/\">अनुभव</a> &nbsp; <a href=\"/hi/about/\">परिचय</a> &nbsp; <a href=\"/hi/contact/\">संपर्क</a></nav>",
-            "text_color": "#61727d",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-              "size": 13,
-              "unit": "px"
-            }
+            "editor": "<nav aria-label=\"Main\"><a href=\"/hi/health-insurance/\">सेवाएं</a><a href=\"/hi/insurance-guides/\">गाइड</a><a href=\"/hi/blog/\">ब्लॉग</a><a href=\"/hi/about/\">परिचय</a><a href=\"/hi/contact/\">संपर्क</a></nav>",
+            "text_color": "#62536f"
           },
           "elements": []
         },

@@ -46,14 +46,24 @@ try {
  $import=Templates::import($root.'/elementor','fixture-'.$suffix);
  check(!$import['conflicts'],'Separate Elementor pages import without conflicts');
  $again=Templates::import($root.'/elementor','fixture-'.$suffix);
- check(count($again['unchanged'])===53 && !$again['updated'],'Repeated page import creates no duplicates');
+ check(count($again['unchanged'])===count(json_decode(file_get_contents($root.'/elementor/manifest.json'),true)['templates']) && !$again['updated'],'Repeated page import creates no duplicates');
  $guide=(int)$wpdb->get_var("SELECT post_id FROM ".Core::table('managed_templates')." WHERE deployment_key LIKE 'guide-%' AND locale='en' LIMIT 1");wp_update_post(['ID'=>$guide,'post_status'=>'publish']);check(get_post_status($guide)==='draft','Guide without source/author/reviewer approval stays draft');
  $case=(int)$wpdb->get_var("SELECT post_id FROM ".Core::table('managed_templates')." WHERE deployment_key='case-detail' AND locale='en'");delete_post_meta($case,'_iaai_review_review_date');delete_post_meta($case,'_iaai_review_payment_verified');foreach(['consent','evidence','anonymized']as$field)update_post_meta($case,'_iaai_review_'.$field,'synthetic');update_post_meta($case,'_iaai_review_outcome','pending');wp_update_post(['ID'=>$case,'post_status'=>'publish']);check(get_post_status($case)==='draft','Case without review date stays draft');update_post_meta($case,'_iaai_review_review_date','2026-10-08');update_post_meta($case,'_iaai_review_outcome','paid');wp_update_post(['ID'=>$case,'post_status'=>'publish']);check(get_post_status($case)==='draft','Paid outcome requires actual payment verification before publication');
 
  // Initialize the real REST server before Elementor's internal rendering simulator removes init callbacks.
  rest_get_server();
  $widgets=Elementor\Plugin::$instance->widgets_manager->get_widget_types();
- check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===13 && isset($widgets['iaai-calculators']),'Thirteen real registered Elementor widgets including calculators');
+ check(count(array_filter(array_keys($widgets),fn($x)=>str_starts_with($x,'iaai-')))===14 && isset($widgets['iaai-calculators'], $widgets['iaai-posts']),'Fourteen registered Elementor widgets including calculators and blog posts');
+ // The daily feed must paginate published content without exposing protected articles.
+ $category=wp_insert_term('Synthetic journal '.$suffix,'category');$category_id=(int)$category['term_id'];$journal_ids=[];
+ foreach(['publish','publish','draft','private','protected'] as $index=>$status){
+  $journal_ids[]=wp_insert_post(['post_type'=>'post','post_status'=>$status==='protected'?'publish':$status,'post_password'=>$status==='protected'?'synthetic-only':'','post_title'=>'Journal '.$status.' '.$index.' '.$suffix,'post_content'=>'Synthetic article body.','post_category'=>[$category_id]]);
+ }
+ $feed=IAAI\Portal\Elementor::posts(['category_id'=>$category_id,'posts_per_page'=>1,'show_pagination'=>'yes']);
+ check(substr_count($feed,'<article class="iaai-journal-card">')===1 && str_contains($feed,'iaai_blog_page') && !str_contains($feed,'Journal draft') && !str_contains($feed,'Journal private') && !str_contains($feed,'Journal protected'),'Blog feed paginates published articles and excludes drafts/private/password-protected posts');
+ $saved_get=$_GET;$_GET['iaai_blog_page']='2';$second=IAAI\Portal\Elementor::posts(['category_id'=>$category_id,'posts_per_page'=>1,'show_pagination'=>'yes']);$_GET=$saved_get;
+ check(substr_count($second,'<article class="iaai-journal-card">')===1 && $second!==$feed,'Blog pagination changes the displayed article');
+ foreach($journal_ids as $id){wp_delete_post($id,true);}wp_delete_term($category_id,'category');
  $home=(int)get_option('page_on_front');
  check(strlen(Elementor\Plugin::$instance->frontend->get_builder_content_for_display($home))>20000,'Native Elementor public home renders');
  check(count(apply_filters('wp_privacy_personal_data_exporters',[]))>0 && isset(apply_filters('wp_privacy_personal_data_erasers',[])['iaai-portal']),'Native WordPress privacy hooks register outside REST');

@@ -4,581 +4,267 @@
   "type": "page",
   "content": [
     {
-      "id": "000029f",
+      "id": "b0001e4",
       "elType": "container",
       "settings": {
-        "content_width": "full",
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
         "flex_direction": "column",
-        "flex_direction_mobile": "column",
         "gap": {
-          "size": 18,
+          "size": 25,
           "unit": "px"
         },
         "padding": {
-          "top": 75,
-          "right": 75,
-          "bottom": 75,
-          "left": 75,
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
           "unit": "px"
         },
-        "_css_classes": "",
-        "background_background": "classic",
-        "background_color": "#fff",
         "padding_mobile": {
-          "top": 42,
-          "right": 0,
-          "bottom": 42,
-          "left": 0,
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
           "unit": "px"
-        }
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": ""
       },
       "elements": [
         {
-          "id": "000029e",
-          "elType": "container",
+          "id": "b0001dd",
+          "elType": "widget",
+          "widgetType": "heading",
           "settings": {
-            "content_width": "boxed",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "gap": {
-              "size": 18,
+            "title": "बीमा की समझ बढ़ाएं।",
+            "header_size": "h1",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 54,
               "unit": "px"
             },
-            "padding": {
-              "top": 0,
-              "right": 24,
-              "bottom": 0,
-              "left": 24,
-              "unit": "px"
-            },
-            "_css_classes": "",
-            "boxed_width": {
-              "size": 1200,
+            "typography_font_size_mobile": {
+              "size": 32,
               "unit": "px"
             }
           },
+          "elements": []
+        },
+        {
+          "id": "b0001de",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "आठ कदम की सामान्य जानकारी से शुरू करें और अपने समय पर दैनिक लेख व चेकलिस्ट पढ़ें।",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b0001e3",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_align_items": "stretch",
+            "gap": {
+              "size": 24,
+              "unit": "px"
+            },
+            "padding": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "padding_mobile": {
+              "top": 22,
+              "right": 18,
+              "bottom": 22,
+              "left": 18,
+              "unit": "px"
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff00",
+            "border_border": "solid",
+            "border_color": "#ffffffd9",
+            "border_width": {
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "unit": "px"
+            },
+            "border_radius": {
+              "top": 28,
+              "right": 28,
+              "bottom": 28,
+              "left": 28,
+              "unit": "px"
+            },
+            "css_classes": "iaai-card-row"
+          },
           "elements": [
             {
-              "id": "0000283",
+              "id": "b0001df",
               "elType": "widget",
-              "widgetType": "heading",
+              "widgetType": "image",
               "settings": {
-                "title": "अपने समय पर समझें",
-                "header_size": "div",
-                "title_color": "#102a43",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 11
+                "image": {
+                  "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/images/care.jpg",
+                  "id": 0
                 },
-                "_css_classes": "iaai-section-label"
+                "image_size": "full",
+                "link_to": "none",
+                "link": {
+                  "url": ""
+                },
+                "_css_classes": "iaai-editor-photo",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "border_radius": {
+                  "top": 22,
+                  "right": 22,
+                  "bottom": 22,
+                  "left": 22,
+                  "unit": "px"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": []
             },
             {
-              "id": "0000284",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "बेहतर सवालों से शुरुआत।",
-                "header_size": "h1",
-                "title_color": "#102a43",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 52
-                },
-                "_css_classes": "iaai-hero-title"
-              },
-              "elements": []
-            },
-            {
-              "id": "0000285",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "गाइड तैयार हो रही हैं। नीचे सामान्य सवालों के विषय हैं; तथ्य समीक्षा तक लेख प्रकाशित नहीं होंगे।",
-                "text_color": "#61727d",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "size": 16,
-                  "unit": "px"
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "0000288",
+              "id": "b0001e2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "stretch",
                 "gap": {
-                  "size": 18,
+                  "size": 24,
                   "unit": "px"
                 },
                 "padding": {
-                  "top": 18,
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "padding_mobile": {
+                  "top": 22,
                   "right": 18,
-                  "bottom": 18,
+                  "bottom": 22,
                   "left": 18,
                   "unit": "px"
                 },
-                "_css_classes": "iaai-guide-row"
+                "background_background": "classic",
+                "background_color": "#ffffffb3",
+                "border_border": "solid",
+                "border_color": "#ffffffd9",
+                "border_width": {
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "unit": "px"
+                },
+                "border_radius": {
+                  "top": 28,
+                  "right": 28,
+                  "bottom": 28,
+                  "left": 28,
+                  "unit": "px"
+                },
+                "css_classes": "iaai-glass",
+                "width": {
+                  "size": 48.0,
+                  "unit": "%"
+                },
+                "width_mobile": {
+                  "size": 100,
+                  "unit": "%"
+                },
+                "flex_grow": 1
               },
               "elements": [
                 {
-                  "id": "0000286",
+                  "id": "b0001e0",
                   "elType": "widget",
-                  "widgetType": "heading",
+                  "widgetType": "button",
                   "settings": {
-                    "title": "परिवार के स्वास्थ्य बीमा के लिए सवाल",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
+                    "text": "पूरी बीमा गाइड →",
+                    "link": {
+                      "url": "/hi/insurance-guides/"
                     },
-                    "_css_classes": ""
+                    "background_color": "#7136cb",
+                    "button_text_color": "#ffffff",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
+                      "unit": "px"
+                    }
                   },
                   "elements": []
                 },
                 {
-                  "id": "0000287",
+                  "id": "b0001e1",
                   "elType": "widget",
-                  "widgetType": "text-editor",
+                  "widgetType": "button",
                   "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
+                    "text": "दैनिक ब्लॉग →",
+                    "link": {
+                      "url": "/hi/blog/"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#51218f",
+                    "border_radius": {
+                      "top": 14,
+                      "right": 14,
+                      "bottom": 14,
+                      "left": 14,
+                      "unit": "px"
+                    },
+                    "text_padding": {
+                      "top": 15,
+                      "right": 23,
+                      "bottom": 15,
+                      "left": 23,
                       "unit": "px"
                     }
                   },
                   "elements": []
                 }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "000028b",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "0000289",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "माता-पिता के लिए checklist",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "000028a",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "000028e",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "000028c",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Deductible और co-payment के सवाल",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "000028d",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "0000291",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "000028f",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Cashless और reimbursement की प्रक्रिया",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "0000290",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "0000294",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "0000292",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "क्लेम सहायता के लिए जानकारी तैयार करें",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "0000293",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "0000297",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "0000295",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Medical disclosure के सवाल",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "0000296",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "000029a",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "0000298",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "टर्म सुरक्षा और जिम्मेदारियां",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "0000299",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "000029d",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "gap": {
-                  "size": 18,
-                  "unit": "px"
-                },
-                "padding": {
-                  "top": 18,
-                  "right": 18,
-                  "bottom": 18,
-                  "left": 18,
-                  "unit": "px"
-                },
-                "_css_classes": "iaai-guide-row"
-              },
-              "elements": [
-                {
-                  "id": "000029b",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "पॉलिसी समीक्षा की जरूरी शर्तें",
-                    "header_size": "h3",
-                    "title_color": "#102a43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "_css_classes": ""
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "000029c",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "लेख की समीक्षा बाकी है।",
-                    "text_color": "#61727d",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "size": 13,
-                      "unit": "px"
-                    }
-                  },
-                  "elements": []
-                }
-              ],
-              "isInner": true
+              ]
             }
-          ],
-          "isInner": true
+          ]
         }
-      ],
-      "isInner": true
+      ]
     }
   ],
   "page_settings": {

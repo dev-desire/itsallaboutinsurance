@@ -1,0 +1,157 @@
+{
+  "version": "0.4",
+  "title": "Insurance Blog",
+  "type": "page",
+  "content": [
+    {
+      "id": "b000085",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": ""
+      },
+      "elements": [
+        {
+          "id": "b000082",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "THE INSURANCE JOURNAL",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        },
+        {
+          "id": "b000083",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Read a little. Understand a lot.",
+            "header_size": "h1",
+            "title_color": "#291347",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "size": 54,
+              "unit": "px"
+            },
+            "typography_font_size_mobile": {
+              "size": 32,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b000084",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Daily stories, explainers and practical checklists to help you understand insurance. Discover the latest articles from our team.",
+            "text_color": "#62536f"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b000088",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "size": 1200,
+          "unit": "px"
+        },
+        "flex_direction": "column",
+        "gap": {
+          "size": 25,
+          "unit": "px"
+        },
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "unit": "px"
+        },
+        "padding_mobile": {
+          "top": 36,
+          "right": 16,
+          "bottom": 36,
+          "left": 16,
+          "unit": "px"
+        },
+        "css_classes": "iaai-home-section iaai-glass-section ",
+        "css_id": ""
+      },
+      "elements": [
+        {
+          "id": "b000086",
+          "elType": "widget",
+          "widgetType": "iaai-posts",
+          "settings": {
+            "posts_per_page": 9,
+            "show_pagination": "yes",
+            "empty_message": "No articles published yet. Explore our insurance guide while the journal is being prepared."
+          },
+          "elements": []
+        },
+        {
+          "id": "b000087",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Start with the insurance guide →",
+            "link": {
+              "url": "/insurance-guides/"
+            },
+            "background_color": "#7136cb",
+            "button_text_color": "#ffffff",
+            "border_radius": {
+              "top": 14,
+              "right": 14,
+              "bottom": 14,
+              "left": 14,
+              "unit": "px"
+            },
+            "text_padding": {
+              "top": 15,
+              "right": 23,
+              "bottom": 15,
+              "left": 23,
+              "unit": "px"
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

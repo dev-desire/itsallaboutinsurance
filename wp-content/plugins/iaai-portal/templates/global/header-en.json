@@ -60,27 +60,27 @@
           },
           "elements": [
             {
-              "id": "a000056",
+              "id": "b0000f2",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
-                  "url": "https://raw.githubusercontent.com/dev-desire/itsallaboutinsurance/main/wp-content/plugins/iaai-portal/assets/logo-purple.png"
+                  "url": "https://itsallaboutinsurance.com/wp-content/plugins/iaai-portal/assets/logo-purple.png",
+                  "id": 0
                 },
                 "image_size": "full",
                 "width": {
-                  "size": 250,
+                  "size": 220,
                   "unit": "px"
                 },
                 "width_mobile": {
-                  "size": 210,
+                  "size": 190,
                   "unit": "px"
                 },
                 "link_to": "custom",
                 "link": {
                   "url": "/"
-                },
-                "caption_source": "none"
+                }
               },
               "elements": []
             }
@@ -88,18 +88,12 @@
           "isInner": true
         },
         {
-          "id": "0000004",
+          "id": "b0000f3",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<nav aria-label=\"Main\"><a href=\"/health-insurance/\">Services</a> &nbsp; <a href=\"/learn/\">Learn</a> &nbsp; <a href=\"/stories/\">Stories</a> &nbsp; <a href=\"/about/\">About</a> &nbsp; <a href=\"/contact/\">Contact</a></nav>",
-            "text_color": "#61727d",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-              "size": 13,
-              "unit": "px"
-            }
+            "editor": "<nav aria-label=\"Main\"><a href=\"/health-insurance/\">Services</a><a href=\"/insurance-guides/\">Guides</a><a href=\"/blog/\">Blog</a><a href=\"/about/\">About</a><a href=\"/contact/\">Contact</a></nav>",
+            "text_color": "#62536f"
           },
           "elements": []
         },

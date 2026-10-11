@@ -3,7 +3,7 @@ namespace IAAI\Portal;
 defined('ABSPATH') || exit;
 
 final class Elementor {
-    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'calculators', 'staff'];
+    const VIEWS = ['auth', 'dashboard', 'profile', 'reports', 'upload', 'treatment', 'enquiries', 'sharing', 'settings', 'guidance', 'navigation', 'contact', 'calculators', 'posts', 'staff'];
     public static function boot(): void {
         Kit::boot();
         add_filter('elementor/frontend/print_google_fonts', '__return_false');
@@ -11,6 +11,44 @@ final class Elementor {
             require_once IAAI_PATH . 'src/ElementorWidget.php';
             foreach (array_diff(self::VIEWS, ['staff']) as $view) { $class = __NAMESPACE__ . '\\' . ucfirst($view) . 'Widget'; $manager->register(new $class()); }
         });
+    }
+    /** Public journal: only published posts; drafts/private records never enter this query. */
+    public static function posts(array $settings): string {
+        $hi = Core::locale() === 'hi';
+        $count = max(1, min(24, (int) ($settings['posts_per_page'] ?? 6)));
+        $pagination = ($settings['show_pagination'] ?? '') === 'yes';
+        $raw_page = $_GET['iaai_blog_page'] ?? 1;
+        $page = $pagination && is_scalar($raw_page) ? max(1, min(10000, absint($raw_page))) : 1;
+        $args = ['post_type' => 'post', 'post_status' => 'publish', 'has_password' => false, 'posts_per_page' => $count,
+            'paged' => $page, 'ignore_sticky_posts' => true, 'orderby' => 'date', 'order' => 'DESC',
+            'no_found_rows' => !$pagination];
+        $category = absint($settings['category_id'] ?? 0);
+        if ($category) { $args['cat'] = $category; }
+        $query = new \WP_Query($args);
+        if (!$query->posts) {
+            $empty = ($settings['empty_message'] ?? '') ?: ($hi ? 'अभी कोई ब्लॉग प्रकाशित नहीं हुआ है।' : 'No articles published yet.');
+            return '<p class="iaai-journal-empty">' . esc_html($empty) . '</p>';
+        }
+        $html = '<div class="iaai-journal-grid">';
+        foreach ($query->posts as $post) {
+            $link = get_permalink($post);
+            $title = get_the_title($post);
+            $image = get_the_post_thumbnail($post, 'large', ['loading' => 'lazy']);
+            if (!$image) { $image = '<img src="' . esc_url(IAAI_URL . 'assets/images/planning.jpg') . '" alt="" loading="lazy" width="1100" height="734">'; }
+            $excerpt = wp_trim_words(wp_strip_all_tags(get_the_excerpt($post)), 24);
+            $html .= '<article class="iaai-journal-card"><a class="iaai-journal-image" href="' . esc_url($link) . '" aria-label="' . esc_attr($title) . '">' . $image . '</a><div class="iaai-journal-body">';
+            $html .= '<time datetime="' . esc_attr(get_the_date('c', $post)) . '">' . esc_html(get_the_date('', $post)) . '</time>';
+            $html .= '<h3><a href="' . esc_url($link) . '">' . esc_html($title) . '</a></h3><p>' . esc_html($excerpt) . '</p>';
+            $html .= '<a class="iaai-journal-more" href="' . esc_url($link) . '">' . esc_html(($settings['read_more'] ?? '') ?: ($hi ? 'लेख पढ़ें →' : 'Read article →')) . '</a></div></article>';
+        }
+        $html .= '</div>';
+        if ($pagination && $query->max_num_pages > 1) {
+            $links = paginate_links(['base' => add_query_arg('iaai_blog_page', '%#%', get_permalink()),
+                'format' => '', 'current' => $page, 'total' => $query->max_num_pages,
+                'type' => 'list', 'prev_text' => $hi ? '← पिछले' : '← Previous', 'next_text' => $hi ? 'अगले →' : 'Next →']);
+            $html .= '<nav class="iaai-journal-pagination" aria-label="' . ($hi ? 'ब्लॉग पृष्ठ' : 'Blog pages') . '">' . wp_kses_post($links) . '</nav>';
+        }
+        return $html;
     }
     public static function calculators(array $settings): string {
         $hi = Core::locale() === 'hi';
@@ -33,6 +71,7 @@ final class Elementor {
     public static function shell(string $view, array $settings): string {
         if (!in_array($view, self::VIEWS, true)) { return ''; }
         if ($view === 'calculators') { return self::calculators($settings); }
+        if ($view === 'posts') { return self::posts($settings); }
         if (class_exists('\Elementor\Plugin') && \Elementor\Plugin::$instance->editor->is_edit_mode()) {
             return '<div class="iaai-app"><span class="iaai-eyebrow">Synthetic editor preview</span><h3>' . esc_html($settings['heading'] ?? ucwords($view)) . '</h3><p>Sample layout only. No personal records are loaded in Elementor.</p><div class="iaai-empty">Use the Style tab to edit colors, type, layout and spacing.</div></div>';
         }

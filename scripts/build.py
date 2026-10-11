@@ -36,6 +36,25 @@ add_action('plugins_loaded', static function () {
 bootstrap="add_action('plugins_loaded', static function () { if (class_exists('IAAI\\\\Portal\\\\Snippets')) { \\IAAI\\Portal\\Snippets::start(); } }, 99);\n"
 write_json(ROOT/'snippets/99-Runtime.json',{'generator':fixture['generator'],'date_created':'2026-10-08 00:00','snippets':[{'name':'IAAI Runtime','desc':'Boot only after all verified managed modules are registered. Imports are inactive.','code':bootstrap,'scope':'global','tags':['iaai-managed'],'priority':10,'active':False}]})
 (ROOT/'snippets/99-Runtime.php').write_text('<?php\n'+bootstrap)
+# Preserve the native exporter scaffold while synchronizing its custom import
+# runner payload. Otherwise the bundled kit silently imports obsolete layouts.
+kit_path = ROOT/'elementor/iaai-website-kit.zip'
+if kit_path.exists():
+    with zipfile.ZipFile(kit_path) as archive:
+        kit_files = {name: archive.read(name) for name in archive.namelist() if not name.startswith('iaai/')}
+    blueprint = json.loads((ROOT/'elementor/manifest.json').read_text())
+    native_manifest = json.loads(kit_files['manifest.json'])
+    native_manifest['iaai-blueprint'] = {'schema': 1, 'version': VERSION, 'templates': len(blueprint['templates'])}
+    kit_files['manifest.json'] = json.dumps(native_manifest, ensure_ascii=False).encode()
+    kit_files['iaai/manifest.json'] = (ROOT/'elementor/manifest.json').read_bytes()
+    for template in blueprint['templates']:
+        kit_files['iaai/' + template['file']] = (ROOT/'elementor'/template['file']).read_bytes()
+    with zipfile.ZipFile(kit_path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for name, content in sorted(kit_files.items()):
+            info = zipfile.ZipInfo(name, date_time=(2026,10,8,0,0,0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = (0o644 << 16)
+            archive.writestr(info, content)
 for source,dest in [(ROOT/'elementor',PLUGIN/'templates'),(ROOT/'snippets',PLUGIN/'snippets')]:
     if dest.exists(): shutil.rmtree(dest)
     shutil.copytree(source,dest,ignore=shutil.ignore_patterns('*.zip'))

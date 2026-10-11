@@ -5,3 +5,40 @@
 
 /* Screenshot-inspired, responsive homepage */
 .iaai-home-section>.e-con-inner{gap:28px}.iaai-home-section .e-con.e-con{min-width:0;flex:1 1 240px}.iaai-color-card{transition:transform .25s ease,box-shadow .25s ease}.iaai-color-card:hover,.iaai-color-card:focus-within{transform:translateY(-8px);box-shadow:0 18px 40px #24133f20}.iaai-public-header img{height:auto;max-width:250px;width:100%;object-fit:contain}.iaai-calculator-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.iaai-calculator{padding:28px;border:1px solid #e6dcf5;border-radius:24px;background:white;color:#24133f;box-shadow:0 8px 30px #24133f08}.iaai-calculator h3{font-size:25px}.iaai-calculator label{display:block;margin:14px 0;font-size:14px}.iaai-calculator input{display:block;width:100%;padding:12px;border:1px solid #d9cceb;border-radius:10px;background:#fff;color:#24133f}.iaai-calculator button{background:#7c3aed;color:white;padding:13px 24px;border:0;border-radius:12px;cursor:pointer}.iaai-calculator output{display:block;font-size:27px;font-weight:700;color:#6d28d9}.iaai-calc-note{font-size:12px;line-height:1.6;margin-top:16px}.iaai-public-header nav[aria-label="Main"]{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}.iaai-public-header nav a{white-space:nowrap}@media(max-width:767px){.iaai-calculator-grid{grid-template-columns:1fr}.iaai-public-header img{max-width:210px}.iaai-public-header nav[aria-label="Main"]{gap:12px;font-size:13px}.iaai-home-section .e-con.e-con{flex-basis:auto;width:100%}}@media(prefers-reduced-motion:reduce){.iaai-color-card{transition:none}.iaai-color-card:hover{transform:none}}
+
+/* Glass marketing pages: native Elementor controls retain colours and spacing. */
+.iaai-glass-section{position:relative;isolation:isolate;background:radial-gradient(ellipse at 10% 20%,#efe1ff 0,transparent 48%),radial-gradient(ellipse at 95% 65%,#dcecff 0,transparent 42%),#faf7ff;scroll-margin-top:32px}
+.iaai-glass-section:nth-child(even){background:radial-gradient(ellipse at 80% 20%,#eadbfa 0,transparent 46%),radial-gradient(ellipse at 10% 85%,#fbe3e6 0,transparent 42%),#faf7ff}
+.iaai-glass-section .e-con{min-width:0}
+.iaai-glass{backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);box-shadow:0 12px 42px #4b236512;overflow:hidden}
+.iaai-glass-section>.e-con-inner{width:100%;gap:25px}
+.iaai-card-row,.iaai-hero-grid,.iaai-guide-row{padding:0!important;border:0!important;box-shadow:none}
+.iaai-action-row{padding:0!important;border:0!important;gap:12px!important;justify-content:flex-start}
+.iaai-action-row>.elementor-widget{flex:0 1 auto!important;width:auto!important}
+.iaai-hero-section .elementor-heading-title{letter-spacing:-.035em;line-height:1.08}
+.iaai-hero-copy{justify-content:center;padding-left:0!important;border:0!important}
+.iaai-hero-visual{transform:rotate(1deg);animation:iaai-glass-arrive .65s ease-out both}
+.iaai-editor-photo img{width:100%;height:240px;object-fit:cover;display:block}
+.iaai-hero-visual .iaai-editor-photo img{height:350px}
+.iaai-guide-image .iaai-editor-photo img{height:380px}
+.iaai-color-card{transition:transform .25s ease,box-shadow .25s ease}
+.iaai-color-card:hover,.iaai-color-card:focus-within{transform:translateY(-7px);box-shadow:0 22px 44px #4b236521}
+.iaai-glass-section .iaai-calculator{background:#ffffffbd;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-color:#ffffff;box-shadow:0 12px 40px #4b236514}
+.iaai-calculator label{line-height:1.5}.iaai-calculator input{min-height:46px;font:inherit;font-size:16px}.iaai-calculator button{min-height:46px;font:inherit}.iaai-calculator output{overflow-wrap:anywhere}
+.iaai-step-index{padding:0!important;border:0!important;gap:12px!important;justify-content:flex-start}
+.iaai-step-index>.elementor-widget{width:calc(25% - 12px)!important;flex:1 1 220px!important}
+.iaai-step-index .elementor-button{width:100%;text-align:left}
+.iaai-journal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.iaai-journal-card{background:#ffffffbd;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid white;border-radius:26px;overflow:hidden;box-shadow:0 12px 36px #4b236514;color:#62536f;transition:transform .25s,box-shadow .25s}
+.iaai-journal-card:hover,.iaai-journal-card:focus-within{transform:translateY(-6px);box-shadow:0 22px 42px #4b236521}
+.iaai-journal-image{display:block}.iaai-journal-image img{width:100%;height:220px;object-fit:cover;display:block}
+.iaai-journal-body{padding:26px}.iaai-journal-body time{font-size:12px;color:inherit}.iaai-journal-body h3{font-size:23px;line-height:1.35;margin:12px 0}.iaai-journal-body h3 a{color:#291347;text-decoration:none}.iaai-journal-body p{font-size:15px;line-height:1.7}.iaai-journal-more{color:#7136cb;font-weight:600;text-decoration:none;display:inline-block;min-height:44px;padding-top:12px}
+.iaai-journal-empty{padding:24px;background:#ffffffbd;border:1px solid white;border-radius:20px;color:#62536f}
+.iaai-journal-pagination ul{display:flex;justify-content:center;gap:10px;list-style:none;padding:20px 0;flex-wrap:wrap}.iaai-journal-pagination a,.iaai-journal-pagination span{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:12px;background:#ffffff;color:#51218f;padding:8px 14px}.iaai-journal-pagination .current{background:#7136cb;color:white}
+.iaai-blog-article{max-width:900px;margin:auto;padding:64px 24px;color:#291347;overflow-wrap:anywhere}.iaai-blog-article h1{font-size:clamp(32px,5vw,54px);line-height:1.16}.iaai-blog-article .iaai-article-image img{width:100%;height:auto;border-radius:26px}.iaai-blog-article .iaai-article-content{line-height:1.85}.iaai-blog-article .iaai-article-content img{max-width:100%;height:auto}.iaai-blog-article .iaai-article-content iframe{max-width:100%}.iaai-blog-article .iaai-article-content table{display:block;max-width:100%;overflow:auto}
+.iaai-glass-section a:focus-visible,.iaai-glass-section button:focus-visible,.iaai-glass-section input:focus-visible{outline:3px solid #7136cb;outline-offset:4px}
+@keyframes iaai-glass-arrive{from{opacity:0;transform:translateY(16px) rotate(1deg)}to{opacity:1;transform:translateY(0) rotate(1deg)}}
+@media(max-width:1024px) and (min-width:768px){.iaai-card-row>.e-con{width:calc(50% - 24px)!important;flex-basis:calc(50% - 24px)!important}.iaai-hero-visual .iaai-editor-photo img{height:280px}.iaai-journal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.iaai-glass-section .iaai-card-row>.e-con,.iaai-glass-section .iaai-hero-grid>.e-con,.iaai-glass-section .iaai-guide-row>.e-con{width:100%!important;flex-basis:auto!important}.iaai-hero-copy{padding:12px 0!important}.iaai-hero-visual{transform:none}.iaai-hero-visual .iaai-editor-photo img{height:260px}.iaai-guide-image{padding:0!important}.iaai-guide-image .iaai-editor-photo img{height:240px}.iaai-step-index>.elementor-widget{width:100%!important;flex-basis:auto!important}.iaai-journal-grid{grid-template-columns:1fr}.iaai-calculator{padding:22px 18px}.iaai-public-header nav[aria-label="Main"] a{display:inline-flex;min-height:44px;align-items:center}.iaai-public-header .e-con{min-width:0}.iaai-glass-section .elementor-heading-title{overflow-wrap:anywhere}.iaai-action-row>.elementor-widget{width:100%!important}.iaai-action-row .elementor-button{width:100%}}
+@supports not (backdrop-filter:blur(1px)){.iaai-glass,.iaai-journal-card,.iaai-glass-section .iaai-calculator{background-color:#fcfaff}}
+@media(prefers-reduced-motion:reduce){.iaai-hero-visual{animation:none;transform:none}.iaai-color-card,.iaai-journal-card{transition:none}.iaai-color-card:hover,.iaai-color-card:focus-within,.iaai-journal-card:hover,.iaai-journal-card:focus-within{transform:none}}

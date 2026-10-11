@@ -43,6 +43,29 @@ final class GuidanceWidget extends PortalWidget { protected string $view = 'guid
 final class NavigationWidget extends PortalWidget { protected string $view = 'navigation'; }
 final class ContactWidget extends PortalWidget { protected string $view = 'contact'; }
 
+final class PostsWidget extends PortalWidget {
+    protected string $view = 'posts';
+    public function get_title(): string { return 'IAAI Blog Posts'; }
+    public function get_icon(): string { return 'eicon-posts-grid'; }
+    protected function register_controls(): void {
+        $this->start_controls_section('journal', ['label' => 'Blog content']);
+        $this->add_control('posts_per_page', ['label' => 'Posts per page', 'type' => \Elementor\Controls_Manager::NUMBER, 'min' => 1, 'max' => 24, 'default' => 6]);
+        $this->add_control('category_id', ['label' => 'Category ID (0 = all)', 'description' => 'Use a Hindi or English category to curate separate language feeds.', 'type' => \Elementor\Controls_Manager::NUMBER, 'min' => 0, 'default' => 0]);
+        $this->add_control('show_pagination', ['label' => 'Show pagination', 'type' => \Elementor\Controls_Manager::SWITCHER, 'return_value' => 'yes', 'default' => 'yes']);
+        $this->add_control('read_more', ['label' => 'Read article label', 'type' => \Elementor\Controls_Manager::TEXT, 'default' => '']);
+        $this->add_control('empty_message', ['label' => 'Empty-state message', 'type' => \Elementor\Controls_Manager::TEXTAREA, 'default' => '']);
+        $this->end_controls_section();
+        $this->start_controls_section('journal_style', ['label' => 'Blog appearance', 'tab' => \Elementor\Controls_Manager::TAB_STYLE]);
+        $this->add_responsive_control('journal_columns', ['label' => 'Columns', 'type' => \Elementor\Controls_Manager::SELECT, 'options' => ['1' => 'One', '2' => 'Two', '3' => 'Three'], 'default' => '3', 'tablet_default' => '2', 'mobile_default' => '1', 'selectors' => ['{{WRAPPER}} .iaai-journal-grid' => 'grid-template-columns: repeat({{VALUE}}, minmax(0,1fr));']]);
+        $this->add_control('card_background', ['label' => 'Card background', 'type' => \Elementor\Controls_Manager::COLOR, 'selectors' => ['{{WRAPPER}} .iaai-journal-card' => 'background: {{VALUE}};']]);
+        $this->add_control('text_color', ['label' => 'Text colour', 'type' => \Elementor\Controls_Manager::COLOR, 'selectors' => ['{{WRAPPER}} .iaai-journal-card' => 'color: {{VALUE}};']]);
+        $this->add_control('link_color', ['label' => 'Link colour', 'type' => \Elementor\Controls_Manager::COLOR, 'selectors' => ['{{WRAPPER}} .iaai-journal-card a' => 'color: {{VALUE}};']]);
+        $this->add_responsive_control('card_padding', ['label' => 'Content spacing', 'type' => \Elementor\Controls_Manager::DIMENSIONS, 'selectors' => ['{{WRAPPER}} .iaai-journal-body' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};']]);
+        $this->add_group_control(\Elementor\Group_Control_Typography::get_type(), ['name' => 'journal_type', 'selector' => '{{WRAPPER}} .iaai-journal-card']);
+        $this->end_controls_section();
+    }
+}
+
 final class CalculatorsWidget extends PortalWidget {
     protected string $view = 'calculators';
     protected function register_controls(): void {

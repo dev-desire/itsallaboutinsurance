@@ -15,8 +15,8 @@ foreach($manifest['templates'] as $item) {
     if (!empty($item['private']) && !get_post_meta($id,'_iaai_private',true)) throw new RuntimeException('Private metadata missing');
     $checks++;
 }
-if ($checks!==53 || (int)$wpdb->get_var('SELECT COUNT(*) FROM '.IAAI\Portal\Core::table('managed_templates'))!==53) throw new RuntimeException('Kit duplicated or missed pages');
+if ($checks!==count($manifest['templates']) || (int)$wpdb->get_var('SELECT COUNT(*) FROM '.IAAI\Portal\Core::table('managed_templates'))!==count($manifest['templates'])) throw new RuntimeException('Kit duplicated or missed pages');
 $before=(int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts}");$refused=false;
 try {$module->import_kit($root.'/elementor/iaai-website-kit.zip',['include'=>['content','templates','site-settings']]);} catch(Throwable $e) {$refused=str_contains($e->getMessage(),'fresh installation');}
 if (!$refused || $before!==(int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts}")) throw new RuntimeException('Repeat full kit import must refuse without mutation');
-echo "Native Elementor kit: 53 editable templates imported; draft/private states and repeat-import protection verified\n";
+echo "Native Elementor kit: editable templates imported; draft/private states and repeat-import protection verified\n";

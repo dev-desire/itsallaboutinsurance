@@ -5,7 +5,7 @@
     {
       "name": "IAAI Module: ElementorWidget",
       "desc": "Managed module ElementorWidget, version 0.1.0. Requires matching IAAI support package and all declared modules.",
-      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('ElementorWidget', '0.1.0', 'fdcea4284ae8158f03b35bd4455ce569a9f30c16cd959c209d794c9ff3e52dde');\n}, 20);\n",
+      "code": "// Managed IAAI module; canonical code lives in the versioned iaai-portal support package.\nadd_action('plugins_loaded', static function () {\n    if (!defined('IAAI_RUNTIME_MODE') || IAAI_RUNTIME_MODE !== 'snippets') { return; }\n    if (!class_exists('IAAI\\\\Portal\\\\Snippets')) { return; }\n    \\IAAI\\Portal\\Snippets::register('ElementorWidget', '0.1.0', '327a60c8d6075be65595cfec2bd8a8fc97e1b6258e5a8fe92d267e82628e9aa0');\n}, 20);\n",
       "tags": [
         "iaai-managed",
         "ElementorWidget"
