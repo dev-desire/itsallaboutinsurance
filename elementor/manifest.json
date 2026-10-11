@@ -28,7 +28,7 @@
       "locale": "en",
       "slug": "home",
       "file": "pages/home-en.json",
-      "hash": "eae0686660badfa952983ee708616ffeeff5874cf8360000419b21b2a901d35f",
+      "hash": "43df1901da4a72faffec00268ca268134ad85f434b7cb1a9c99a4c00518f6fb5",
       "description": "Understand insurance with health, term, policy review and claim guidance.",
       "private": false,
       "draft": false,
@@ -105,7 +105,7 @@
       "locale": "en",
       "slug": "learn",
       "file": "pages/learn-en.json",
-      "hash": "068d8932dbec9e29bf09c98371685d2edb5cc7f2bd44b98cfd169e5f010c3bb8",
+      "hash": "394c21825e821b2281f06f0edc6d46303c545f48ae74f3001e1d39f56e67c096",
       "description": "",
       "private": false,
       "draft": false,
@@ -290,7 +290,7 @@
       "locale": "hi",
       "slug": "hi",
       "file": "pages/home-hi.json",
-      "hash": "50879e80bf4b76b99ff878c89685c914f0749d805971f39f247050306f32650f",
+      "hash": "39728c7107c6a889a77923bd1a77b0c6daf92701ca34b360f238f4f2954f3fd5",
       "description": "स्वास्थ्य बीमा, टर्म, समीक्षा और क्लेम के लिए मार्गदर्शन।",
       "private": false,
       "draft": false,
@@ -373,7 +373,7 @@
       "locale": "hi",
       "slug": "learn",
       "file": "pages/learn-hi.json",
-      "hash": "826c9c1e9c4c69d7ccc34e74190a0e2c2fa01b36c76997c3e666445a5a95c1bc",
+      "hash": "5d73d3ed74a5b8992665785c682f54631635dc9189dd2ac8d9aecd2a7454f763",
       "description": "",
       "private": false,
       "draft": false,
@@ -622,7 +622,7 @@
       "draft": false,
       "global": false,
       "description": "Insurance Blog",
-      "hash": "f69b0f9d34091b0a5d4e579349cb27fc5eb3726021e8a0760574af8e2397d6d9"
+      "hash": "4904afb8742a9906e30ea4963fe7464b5d281b0fcf625fbea9e7f04a5129152c"
     },
     {
       "key": "insurance-guides",
@@ -633,7 +633,7 @@
       "draft": false,
       "global": false,
       "description": "Insurance Guides",
-      "hash": "a33b0b3d19785ccdfaaafe670b629cde057a788d3a858395403074742dbcfa59"
+      "hash": "fd67c5263a079caf4e48db99428985799f7f3337d89e619bf3e2084d55915216"
     },
     {
       "key": "blog",
@@ -645,7 +645,7 @@
       "global": false,
       "description": "बीमा ब्लॉग",
       "parent": "home/hi",
-      "hash": "a1a0eda5edba8c03af10627f1e019f0e5bb5c806fe1c8e72bbd458ed8a0ae643"
+      "hash": "e28b287beb7ae64ed7c0ddc5f5a0f41cbdbbf439cb8be7f125af272872440f22"
     },
     {
       "key": "insurance-guides",
@@ -657,7 +657,7 @@
       "global": false,
       "description": "बीमा गाइड",
       "parent": "home/hi",
-      "hash": "beb346e70dd48823e1e4b72fd62ad8651bc9e0ab7217ec6ac70ce4131d09ab26"
+      "hash": "b945fc42e65059bf2beb17e9e39fa5f09de7150fff2d5845407b9a30350f886b"
     }
   ]
 }

@@ -60,7 +60,7 @@ def section(children, anchor='', cls=''):
         'flex_direction': 'column', 'gap': {'size': 25, 'unit': 'px'},
         'padding': {'top': 60, 'right': 24, 'bottom': 60, 'left': 24, 'unit': 'px'},
         'padding_mobile': {'top': 36, 'right': 16, 'bottom': 36, 'left': 16, 'unit': 'px'},
-        'css_classes': 'iaai-home-section iaai-glass-section ' + cls, 'css_id': anchor}, children)
+        'css_classes': 'iaai-home-section iaai-glass-section ' + cls, '_element_id': anchor}, children)
 
 manifest_path = ROOT / 'elementor/manifest.json'
 manifest = json.loads(manifest_path.read_text())
