@@ -34,6 +34,7 @@ Elementor Pro is not required for this kit. The IAAI theme renders the four owne
 
 ```bash
 python3 scripts/generate-templates.py
+python3 scripts/refresh-home.py
 python3 scripts/build.py
 ```
 
